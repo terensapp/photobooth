@@ -1,0 +1,2045 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'upload-gphotos' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose cache add [ 'upload-gphotos', null ]
+5 verbose cache add name=undefined spec="upload-gphotos" args=["upload-gphotos",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'upload-gphotos',
+6 verbose parsed url   path: 'upload-gphotos',
+6 verbose parsed url   href: 'upload-gphotos' }
+7 silly lockFile 771944d8-upload-gphotos upload-gphotos
+8 verbose lock upload-gphotos /root/.npm/771944d8-upload-gphotos.lock
+9 silly lockFile 771944d8-upload-gphotos upload-gphotos
+10 silly lockFile 771944d8-upload-gphotos upload-gphotos
+11 verbose addNamed [ 'upload-gphotos', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile deeeb1f4-upload-gphotos upload-gphotos@
+14 verbose lock upload-gphotos@ /root/.npm/deeeb1f4-upload-gphotos.lock
+15 silly addNameRange { name: 'upload-gphotos', range: '*', hasData: false }
+16 verbose request where is /upload-gphotos
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 8dc32db13f19226b
+19 verbose url raw /upload-gphotos
+20 verbose url resolving [ 'https://registry.npmjs.org/', './upload-gphotos' ]
+21 verbose url resolved https://registry.npmjs.org/upload-gphotos
+22 verbose request where is https://registry.npmjs.org/upload-gphotos
+23 info trying registry request attempt 1 at 22:19:06
+24 http GET https://registry.npmjs.org/upload-gphotos
+25 http 200 https://registry.npmjs.org/upload-gphotos
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:06 GMT',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'transfer-encoding': 'chunked',
+26 silly registry.get     connection: 'close',
+26 silly registry.get     'set-cookie':
+26 silly registry.get      [ '__cfduid=d840be1318731813b237af6aafa4cd8f11540091946; expires=Mon, 21-Oct-19 03:19:06 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+26 silly registry.get     'cf-cache-status': 'REVALIDATED',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'cf-ray': '46d094a8fa1c5625-ORD',
+26 silly registry.get     etag: 'W/"b031e719d6e4df3cddb3e2ab40198da1"',
+26 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+26 silly registry.get     'last-modified': 'Tue, 16 Oct 2018 09:19:15 GMT',
+26 silly registry.get     vary: 'accept-encoding, accept',
+26 silly registry.get     'x-amz-meta-rev': '45-5b943ad4fbdebd319a447f58a1917ac3',
+26 silly registry.get     server: 'cloudflare',
+26 silly registry.get     'content-encoding': 'gzip' } ]
+27 silly addNameRange number 2 { name: 'upload-gphotos', range: '*', hasData: true }
+28 silly addNameRange versions [ 'upload-gphotos',
+28 silly addNameRange   [ '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8',
+28 silly addNameRange     '1.0.9',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
+28 silly addNameRange     '1.4.4',
+28 silly addNameRange     '1.4.5',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.0.3',
+28 silly addNameRange     '2.0.4',
+28 silly addNameRange     '2.0.5',
+28 silly addNameRange     '2.0.6',
+28 silly addNameRange     '2.0.7',
+28 silly addNameRange     '2.0.8',
+28 silly addNameRange     '2.0.9',
+28 silly addNameRange     '2.0.10',
+28 silly addNameRange     '2.0.11',
+28 silly addNameRange     '2.0.12',
+28 silly addNameRange     '2.0.13' ] ]
+29 verbose addNamed [ 'upload-gphotos', '2.0.13' ]
+30 verbose addNamed [ '2.0.13', '2.0.13' ]
+31 silly lockFile 22539215-upload-gphotos-2-0-13 upload-gphotos@2.0.13
+32 verbose lock upload-gphotos@2.0.13 /root/.npm/22539215-upload-gphotos-2-0-13.lock
+33 silly lockFile 16c62ac5-photos-upload-gphotos-2-0-13-tgz https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+34 verbose lock https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz /root/.npm/16c62ac5-photos-upload-gphotos-2-0-13-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz',
+35 verbose addRemoteTarball   '307b416a9799f1069db55c6237f39a535c89e7b3' ]
+36 info retry fetch attempt 1 at 22:19:06
+37 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+38 http GET https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+39 http 200 https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+40 silly lockFile 16c62ac5-photos-upload-gphotos-2-0-13-tgz https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+41 silly lockFile 16c62ac5-photos-upload-gphotos-2-0-13-tgz https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz
+42 silly lockFile 22539215-upload-gphotos-2-0-13 upload-gphotos@2.0.13
+43 silly lockFile 22539215-upload-gphotos-2-0-13 upload-gphotos@2.0.13
+44 silly lockFile deeeb1f4-upload-gphotos upload-gphotos@
+45 silly lockFile deeeb1f4-upload-gphotos upload-gphotos@
+46 silly resolved [ { name: 'upload-gphotos',
+46 silly resolved     description: 'Upload to Google Photos',
+46 silly resolved     author: { name: '3846masa', email: '3846masahiro+git@gmail.com' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     homepage: 'https://github.com/3846masa/upload-gphotos#readme',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/3846masa/upload-gphotos.git' },
+46 silly resolved     bugs: { url: 'https://github.com/3846masa/upload-gphotos/issues' },
+46 silly resolved     version: '2.0.13',
+46 silly resolved     main: 'lib/index.js',
+46 silly resolved     bin: { 'upload-gphotos': 'lib/cli.js' },
+46 silly resolved     scripts:
+46 silly resolved      { build: 'npm-run-all -s build:clean build:tsc build:pkg build:doc',
+46 silly resolved        'build:clean': 'rimraf lib doc',
+46 silly resolved        'build:doc': 'typedoc --out doc src',
+46 silly resolved        'build:pkg': 'pkg -t node6-macos-x64,node6-linux-x64,node6-win-x64 --out-dir ./binaries .',
+46 silly resolved        'build:tsc': 'tsc',
+46 silly resolved        'release:doc': 'gh-pages -d doc -t',
+46 silly resolved        'release:doc:local': 'npm run release:doc -- -r https://github.com/3846masa/upload-gphotos.git',
+46 silly resolved        test: 'echo "Error: no test specified" && exit 1' },
+46 silly resolved     dependencies:
+46 silly resolved      { '@3846masa/axios-cookiejar-support': '^0.3.1',
+46 silly resolved        axios: '^0.18.0',
+46 silly resolved        cheerio: '^1.0.0-rc.2',
+46 silly resolved        colors: '^1.1.2',
+46 silly resolved        configstore: '^4.0.0',
+46 silly resolved        escodegen: '^1.9.1',
+46 silly resolved        esprima: '^4.0.0',
+46 silly resolved        esrecurse: '^4.2.1',
+46 silly resolved        'fs-extra': '^6.0.0',
+46 silly resolved        inquirer: '^6.0.0',
+46 silly resolved        log4js: '^3.0.0',
+46 silly resolved        progress: '^2.0.0',
+46 silly resolved        'static-eval': '^2.0.0',
+46 silly resolved        'tough-cookie': '^2.3.3',
+46 silly resolved        yargs: '^12.0.1' },
+46 silly resolved     devDependencies:
+46 silly resolved      { '@types/cheerio': '^0.22.5',
+46 silly resolved        '@types/colors': '^1.1.3',
+46 silly resolved        '@types/configstore': '^2.1.1',
+46 silly resolved        '@types/escodegen': '^0.0.6',
+46 silly resolved        '@types/esprima': '^4.0.1',
+46 silly resolved        '@types/fs-extra': '^5.0.0',
+46 silly resolved        '@types/inquirer': '^0.0.38',
+46 silly resolved        '@types/log4js': '^2.3.5',
+46 silly resolved        '@types/node': '^10.0.3',
+46 silly resolved        '@types/progress': '^2.0.0',
+46 silly resolved        '@types/static-eval': '^0.2.30',
+46 silly resolved        '@types/tough-cookie': '^2.3.2',
+46 silly resolved        '@types/yargs': '^11.0.0',
+46 silly resolved        'gh-pages': '^1.0.0',
+46 silly resolved        'npm-run-all': '^4.1.2',
+46 silly resolved        pkg: '^4.3.0-beta.1',
+46 silly resolved        rimraf: '^2.6.2',
+46 silly resolved        typedoc: '^0.11.1',
+46 silly resolved        typescript: '^2.6.1' },
+46 silly resolved     keywords: [ 'google photos', 'googlephotos', 'upload' ],
+46 silly resolved     pkg: { assets: [Array] },
+46 silly resolved     types: 'lib/index.d.js',
+46 silly resolved     gitHead: 'a72b5e4068daf9a031167e0a95da2003e4140286',
+46 silly resolved     _id: 'upload-gphotos@2.0.13',
+46 silly resolved     _shasum: '307b416a9799f1069db55c6237f39a535c89e7b3',
+46 silly resolved     _from: 'upload-gphotos@',
+46 silly resolved     _npmVersion: '3.10.10',
+46 silly resolved     _nodeVersion: '6.14.4',
+46 silly resolved     _npmUser: { name: '3846masa', email: '3846masahiro+git@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '307b416a9799f1069db55c6237f39a535c89e7b3',
+46 silly resolved        tarball: 'https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz',
+46 silly resolved        integrity: 'sha512-VaUf+Xv/07I0hP5dDps5MM0R+IdeAeNVKsu+hxmapZMoPisbmexhWHrk3AzjS6IQXPTBYMEpzOaswTYULPNXtg==',
+46 silly resolved        fileCount: 17,
+46 silly resolved        unpackedSize: 41920,
+46 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbxateCRA9TVsSAnZWagAAGJQP/2coWEYSwrbbpyXA+xNZ\n0zbHntHVYxt1EDFddo58s6cdIIEJ64H5ytEI22jtzlOQGgk/mytmTBnMZlFt\nARGb0z3lUs/EhQh1KnTP2w2U/y5XxH1j6nJuY5lEgm7J2B0nmXr6B0I7DSma\nuK7Y5L4glw9c/9+oOTWey0DP2MJ5wKWuppy9fTpWdDYUGq9KsSh0xwWUwCLS\nDiUV7mePPo7yR/oOi/PqvUiTogSdpiPm1J2qGsjq8ApTG4hPVx3/Tvz1iybW\nQWcmGl18DSmKwYmjuZC0S7UxCv8akfWHuOIOYcEpKQRvxM5BaIMqzZSTkiip\ncL224bEmmvUOT3fdk1bGbmFz5MnJjXE1Pn5zkbJo+lbyWMexevMSqnocfCQx\nTVdruHFCGj3JdCdig6RzlDVcfVeF/OCLyVQR5cC+44odTPVlozWp32HCjDVM\nJHAX0P4aaApsitSbJBOSsl0p7jusL2vBomCnCg6e0sk4BGqyVKzxkNeTOidE\nUD7UCkmRBC11mYZvaY4B19T0NxspS20JgaqKtykX4EA+WVuSCbESjUyr539z\nOYqpAMuLfrTeTTN+oPfCg5WQSn4c2N0gMowYEAY53NcTVGrS7xxGdCAUVhKZ\na+kMVcXwZyC4Yd6CcVL5vGglMUwaQzxKJtm4zFTCPIeW6KsY6EsatBAl0gGA\n5NOa\r\n=Q7g5\r\n-----END PGP SIGNATURE-----\r\n' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 's3://npm-registry-packages',
+46 silly resolved        tmp: 'tmp/upload-gphotos_2.0.13_1539681117541_0.7992665701128683' },
+46 silly resolved     _hasShrinkwrap: false,
+46 silly resolved     _resolved: 'https://registry.npmjs.org/upload-gphotos/-/upload-gphotos-2.0.13.tgz' } ]
+47 info install upload-gphotos@2.0.13 into /usr/local/lib
+48 info installOne upload-gphotos@2.0.13
+49 verbose lib/node_modules/upload-gphotos unbuild
+50 verbose tar unpack /root/.npm/upload-gphotos/2.0.13/package.tgz
+51 silly lockFile 3ae1950d--lib-node-modules-upload-gphotos tar:///usr/local/lib/node_modules/upload-gphotos
+52 verbose lock tar:///usr/local/lib/node_modules/upload-gphotos /root/.npm/3ae1950d--lib-node-modules-upload-gphotos.lock
+53 silly lockFile 5e339678-pload-gphotos-2-0-13-package-tgz tar:///root/.npm/upload-gphotos/2.0.13/package.tgz
+54 verbose lock tar:///root/.npm/upload-gphotos/2.0.13/package.tgz /root/.npm/5e339678-pload-gphotos-2-0-13-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry lib/Album.js
+60 silly gunzTarPerm extractEntry lib/Photo.js
+61 silly gunzTarPerm extractEntry lib/cli.js
+62 silly gunzTarPerm extractEntry lib/index.js
+63 silly gunzTarPerm extractEntry lib/Album.d.ts
+64 silly gunzTarPerm extractEntry lib/Photo.d.ts
+65 silly gunzTarPerm extractEntry lib/cli.d.ts
+66 silly gunzTarPerm extractEntry lib/index.d.ts
+67 silly gunzTarPerm extractEntry lib/util/extractTokensFromDOM.js
+68 silly gunzTarPerm extractEntry lib/util/uploadInfoTemplate.js
+69 silly gunzTarPerm extractEntry lib/util/wait.js
+70 silly gunzTarPerm extractEntry lib/util/extractTokensFromDOM.d.ts
+71 silly gunzTarPerm extractEntry lib/util/uploadInfoTemplate.d.ts
+72 silly gunzTarPerm extractEntry lib/util/wait.d.ts
+73 silly lockFile 3ae1950d--lib-node-modules-upload-gphotos tar:///usr/local/lib/node_modules/upload-gphotos
+74 silly lockFile 3ae1950d--lib-node-modules-upload-gphotos tar:///usr/local/lib/node_modules/upload-gphotos
+75 silly lockFile 5e339678-pload-gphotos-2-0-13-package-tgz tar:///root/.npm/upload-gphotos/2.0.13/package.tgz
+76 silly lockFile 5e339678-pload-gphotos-2-0-13-package-tgz tar:///root/.npm/upload-gphotos/2.0.13/package.tgz
+77 info preinstall upload-gphotos@2.0.13
+78 verbose readDependencies using package.json deps
+79 verbose readDependencies using package.json deps
+80 verbose cache add [ 'configstore@^4.0.0', null ]
+81 verbose cache add name=undefined spec="configstore@^4.0.0" args=["configstore@^4.0.0",null]
+82 verbose parsed url Url {
+82 verbose parsed url   protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'configstore@%5E4.0.0',
+82 verbose parsed url   path: 'configstore@%5E4.0.0',
+82 verbose parsed url   href: 'configstore@%5E4.0.0' }
+83 verbose cache add [ 'escodegen@^1.9.1', null ]
+84 verbose cache add name=undefined spec="escodegen@^1.9.1" args=["escodegen@^1.9.1",null]
+85 verbose parsed url Url {
+85 verbose parsed url   protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'escodegen@%5E1.9.1',
+85 verbose parsed url   path: 'escodegen@%5E1.9.1',
+85 verbose parsed url   href: 'escodegen@%5E1.9.1' }
+86 verbose cache add [ 'esprima@^4.0.0', null ]
+87 verbose cache add name=undefined spec="esprima@^4.0.0" args=["esprima@^4.0.0",null]
+88 verbose parsed url Url {
+88 verbose parsed url   protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'esprima@%5E4.0.0',
+88 verbose parsed url   path: 'esprima@%5E4.0.0',
+88 verbose parsed url   href: 'esprima@%5E4.0.0' }
+89 verbose cache add name="configstore" spec="^4.0.0" args=["configstore","^4.0.0"]
+90 verbose parsed url Url {
+90 verbose parsed url   protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '%5E4.0.0',
+90 verbose parsed url   path: '%5E4.0.0',
+90 verbose parsed url   href: '%5E4.0.0' }
+91 verbose addNamed [ 'configstore', '^4.0.0' ]
+92 verbose addNamed [ null, '>=4.0.0 <5.0.0' ]
+93 silly lockFile aa48894a-configstore-4-0-0 configstore@^4.0.0
+94 verbose lock configstore@^4.0.0 /root/.npm/aa48894a-configstore-4-0-0.lock
+95 verbose cache add name="escodegen" spec="^1.9.1" args=["escodegen","^1.9.1"]
+96 verbose parsed url Url {
+96 verbose parsed url   protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '%5E1.9.1',
+96 verbose parsed url   path: '%5E1.9.1',
+96 verbose parsed url   href: '%5E1.9.1' }
+97 verbose addNamed [ 'escodegen', '^1.9.1' ]
+98 verbose addNamed [ null, '>=1.9.1 <2.0.0' ]
+99 silly lockFile 44fce814-escodegen-1-9-1 escodegen@^1.9.1
+100 verbose lock escodegen@^1.9.1 /root/.npm/44fce814-escodegen-1-9-1.lock
+101 verbose cache add name="esprima" spec="^4.0.0" args=["esprima","^4.0.0"]
+102 verbose parsed url Url {
+102 verbose parsed url   protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '%5E4.0.0',
+102 verbose parsed url   path: '%5E4.0.0',
+102 verbose parsed url   href: '%5E4.0.0' }
+103 verbose addNamed [ 'esprima', '^4.0.0' ]
+104 verbose addNamed [ null, '>=4.0.0 <5.0.0' ]
+105 silly lockFile c809c86c-esprima-4-0-0 esprima@^4.0.0
+106 verbose lock esprima@^4.0.0 /root/.npm/c809c86c-esprima-4-0-0.lock
+107 verbose cache add [ 'esrecurse@^4.2.1', null ]
+108 verbose cache add name=undefined spec="esrecurse@^4.2.1" args=["esrecurse@^4.2.1",null]
+109 verbose parsed url Url {
+109 verbose parsed url   protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'esrecurse@%5E4.2.1',
+109 verbose parsed url   path: 'esrecurse@%5E4.2.1',
+109 verbose parsed url   href: 'esrecurse@%5E4.2.1' }
+110 verbose cache add [ 'fs-extra@^6.0.0', null ]
+111 verbose cache add name=undefined spec="fs-extra@^6.0.0" args=["fs-extra@^6.0.0",null]
+112 verbose parsed url Url {
+112 verbose parsed url   protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'fs-extra@%5E6.0.0',
+112 verbose parsed url   path: 'fs-extra@%5E6.0.0',
+112 verbose parsed url   href: 'fs-extra@%5E6.0.0' }
+113 verbose cache add [ 'inquirer@^6.0.0', null ]
+114 verbose cache add name=undefined spec="inquirer@^6.0.0" args=["inquirer@^6.0.0",null]
+115 verbose parsed url Url {
+115 verbose parsed url   protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'inquirer@%5E6.0.0',
+115 verbose parsed url   path: 'inquirer@%5E6.0.0',
+115 verbose parsed url   href: 'inquirer@%5E6.0.0' }
+116 verbose cache add [ 'log4js@^3.0.0', null ]
+117 verbose cache add name=undefined spec="log4js@^3.0.0" args=["log4js@^3.0.0",null]
+118 verbose parsed url Url {
+118 verbose parsed url   protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'log4js@%5E3.0.0',
+118 verbose parsed url   path: 'log4js@%5E3.0.0',
+118 verbose parsed url   href: 'log4js@%5E3.0.0' }
+119 verbose cache add [ 'progress@^2.0.0', null ]
+120 verbose cache add name=undefined spec="progress@^2.0.0" args=["progress@^2.0.0",null]
+121 verbose parsed url Url {
+121 verbose parsed url   protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'progress@%5E2.0.0',
+121 verbose parsed url   path: 'progress@%5E2.0.0',
+121 verbose parsed url   href: 'progress@%5E2.0.0' }
+122 verbose cache add [ 'static-eval@^2.0.0', null ]
+123 verbose cache add name=undefined spec="static-eval@^2.0.0" args=["static-eval@^2.0.0",null]
+124 verbose parsed url Url {
+124 verbose parsed url   protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'static-eval@%5E2.0.0',
+124 verbose parsed url   path: 'static-eval@%5E2.0.0',
+124 verbose parsed url   href: 'static-eval@%5E2.0.0' }
+125 verbose cache add [ 'tough-cookie@^2.3.3', null ]
+126 verbose cache add name=undefined spec="tough-cookie@^2.3.3" args=["tough-cookie@^2.3.3",null]
+127 verbose parsed url Url {
+127 verbose parsed url   protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'tough-cookie@%5E2.3.3',
+127 verbose parsed url   path: 'tough-cookie@%5E2.3.3',
+127 verbose parsed url   href: 'tough-cookie@%5E2.3.3' }
+128 verbose cache add [ 'yargs@^12.0.1', null ]
+129 verbose cache add name=undefined spec="yargs@^12.0.1" args=["yargs@^12.0.1",null]
+130 verbose parsed url Url {
+130 verbose parsed url   protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: 'yargs@%5E12.0.1',
+130 verbose parsed url   path: 'yargs@%5E12.0.1',
+130 verbose parsed url   href: 'yargs@%5E12.0.1' }
+131 verbose cache add [ '@3846masa/axios-cookiejar-support@^0.3.1', null ]
+132 verbose cache add name=undefined spec="@3846masa/axios-cookiejar-support@^0.3.1" args=["@3846masa/axios-cookiejar-support@^0.3.1",null]
+133 verbose parsed url Url {
+133 verbose parsed url   protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '@3846masa/axios-cookiejar-support@%5E0.3.1',
+133 verbose parsed url   path: '@3846masa/axios-cookiejar-support@%5E0.3.1',
+133 verbose parsed url   href: '@3846masa/axios-cookiejar-support@%5E0.3.1' }
+134 verbose cache add [ 'axios@^0.18.0', null ]
+135 verbose cache add name=undefined spec="axios@^0.18.0" args=["axios@^0.18.0",null]
+136 verbose parsed url Url {
+136 verbose parsed url   protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'axios@%5E0.18.0',
+136 verbose parsed url   path: 'axios@%5E0.18.0',
+136 verbose parsed url   href: 'axios@%5E0.18.0' }
+137 verbose cache add [ 'cheerio@^1.0.0-rc.2', null ]
+138 verbose cache add name=undefined spec="cheerio@^1.0.0-rc.2" args=["cheerio@^1.0.0-rc.2",null]
+139 verbose parsed url Url {
+139 verbose parsed url   protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'cheerio@%5E1.0.0-rc.2',
+139 verbose parsed url   path: 'cheerio@%5E1.0.0-rc.2',
+139 verbose parsed url   href: 'cheerio@%5E1.0.0-rc.2' }
+140 verbose cache add [ 'colors@^1.1.2', null ]
+141 verbose cache add name=undefined spec="colors@^1.1.2" args=["colors@^1.1.2",null]
+142 verbose parsed url Url {
+142 verbose parsed url   protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'colors@%5E1.1.2',
+142 verbose parsed url   path: 'colors@%5E1.1.2',
+142 verbose parsed url   href: 'colors@%5E1.1.2' }
+143 verbose cache add name="esrecurse" spec="^4.2.1" args=["esrecurse","^4.2.1"]
+144 verbose parsed url Url {
+144 verbose parsed url   protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '%5E4.2.1',
+144 verbose parsed url   path: '%5E4.2.1',
+144 verbose parsed url   href: '%5E4.2.1' }
+145 verbose addNamed [ 'esrecurse', '^4.2.1' ]
+146 verbose addNamed [ null, '>=4.2.1 <5.0.0' ]
+147 silly lockFile 93dcef54-esrecurse-4-2-1 esrecurse@^4.2.1
+148 verbose lock esrecurse@^4.2.1 /root/.npm/93dcef54-esrecurse-4-2-1.lock
+149 verbose cache add name="fs-extra" spec="^6.0.0" args=["fs-extra","^6.0.0"]
+150 verbose parsed url Url {
+150 verbose parsed url   protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '%5E6.0.0',
+150 verbose parsed url   path: '%5E6.0.0',
+150 verbose parsed url   href: '%5E6.0.0' }
+151 verbose addNamed [ 'fs-extra', '^6.0.0' ]
+152 verbose addNamed [ null, '>=6.0.0 <7.0.0' ]
+153 silly lockFile d8c27da8-fs-extra-6-0-0 fs-extra@^6.0.0
+154 verbose lock fs-extra@^6.0.0 /root/.npm/d8c27da8-fs-extra-6-0-0.lock
+155 verbose cache add name="inquirer" spec="^6.0.0" args=["inquirer","^6.0.0"]
+156 verbose parsed url Url {
+156 verbose parsed url   protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '%5E6.0.0',
+156 verbose parsed url   path: '%5E6.0.0',
+156 verbose parsed url   href: '%5E6.0.0' }
+157 verbose addNamed [ 'inquirer', '^6.0.0' ]
+158 verbose addNamed [ null, '>=6.0.0 <7.0.0' ]
+159 silly lockFile bc7d7199-inquirer-6-0-0 inquirer@^6.0.0
+160 verbose lock inquirer@^6.0.0 /root/.npm/bc7d7199-inquirer-6-0-0.lock
+161 verbose cache add name="log4js" spec="^3.0.0" args=["log4js","^3.0.0"]
+162 verbose parsed url Url {
+162 verbose parsed url   protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '%5E3.0.0',
+162 verbose parsed url   path: '%5E3.0.0',
+162 verbose parsed url   href: '%5E3.0.0' }
+163 verbose addNamed [ 'log4js', '^3.0.0' ]
+164 verbose addNamed [ null, '>=3.0.0 <4.0.0' ]
+165 silly lockFile d90c0dd8-log4js-3-0-0 log4js@^3.0.0
+166 verbose lock log4js@^3.0.0 /root/.npm/d90c0dd8-log4js-3-0-0.lock
+167 verbose cache add name="progress" spec="^2.0.0" args=["progress","^2.0.0"]
+168 verbose parsed url Url {
+168 verbose parsed url   protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '%5E2.0.0',
+168 verbose parsed url   path: '%5E2.0.0',
+168 verbose parsed url   href: '%5E2.0.0' }
+169 verbose addNamed [ 'progress', '^2.0.0' ]
+170 verbose addNamed [ null, '>=2.0.0 <3.0.0' ]
+171 silly lockFile 4cf37ce4-progress-2-0-0 progress@^2.0.0
+172 verbose lock progress@^2.0.0 /root/.npm/4cf37ce4-progress-2-0-0.lock
+173 verbose cache add name="static-eval" spec="^2.0.0" args=["static-eval","^2.0.0"]
+174 verbose parsed url Url {
+174 verbose parsed url   protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '%5E2.0.0',
+174 verbose parsed url   path: '%5E2.0.0',
+174 verbose parsed url   href: '%5E2.0.0' }
+175 verbose addNamed [ 'static-eval', '^2.0.0' ]
+176 verbose addNamed [ null, '>=2.0.0 <3.0.0' ]
+177 silly lockFile 2392eb11-static-eval-2-0-0 static-eval@^2.0.0
+178 verbose lock static-eval@^2.0.0 /root/.npm/2392eb11-static-eval-2-0-0.lock
+179 verbose cache add name="tough-cookie" spec="^2.3.3" args=["tough-cookie","^2.3.3"]
+180 verbose parsed url Url {
+180 verbose parsed url   protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '%5E2.3.3',
+180 verbose parsed url   path: '%5E2.3.3',
+180 verbose parsed url   href: '%5E2.3.3' }
+181 verbose addNamed [ 'tough-cookie', '^2.3.3' ]
+182 verbose addNamed [ null, '>=2.3.3 <3.0.0' ]
+183 silly lockFile 3d2fc333-tough-cookie-2-3-3 tough-cookie@^2.3.3
+184 verbose lock tough-cookie@^2.3.3 /root/.npm/3d2fc333-tough-cookie-2-3-3.lock
+185 verbose cache add name="yargs" spec="^12.0.1" args=["yargs","^12.0.1"]
+186 verbose parsed url Url {
+186 verbose parsed url   protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '%5E12.0.1',
+186 verbose parsed url   path: '%5E12.0.1',
+186 verbose parsed url   href: '%5E12.0.1' }
+187 verbose addNamed [ 'yargs', '^12.0.1' ]
+188 verbose addNamed [ null, '>=12.0.1 <13.0.0' ]
+189 silly lockFile 471efd95-yargs-12-0-1 yargs@^12.0.1
+190 verbose lock yargs@^12.0.1 /root/.npm/471efd95-yargs-12-0-1.lock
+191 verbose cache add name="" spec="3846masa/axios-cookiejar-support@^0.3.1" args=["","3846masa/axios-cookiejar-support@^0.3.1"]
+192 verbose parsed url Url {
+192 verbose parsed url   protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: '3846masa/axios-cookiejar-support@%5E0.3.1',
+192 verbose parsed url   path: '3846masa/axios-cookiejar-support@%5E0.3.1',
+192 verbose parsed url   href: '3846masa/axios-cookiejar-support@%5E0.3.1' }
+193 verbose cache add name="axios" spec="^0.18.0" args=["axios","^0.18.0"]
+194 verbose parsed url Url {
+194 verbose parsed url   protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: '%5E0.18.0',
+194 verbose parsed url   path: '%5E0.18.0',
+194 verbose parsed url   href: '%5E0.18.0' }
+195 verbose addNamed [ 'axios', '^0.18.0' ]
+196 verbose addNamed [ null, '>=0.18.0 <0.19.0' ]
+197 silly lockFile cc9fc2e7-axios-0-18-0 axios@^0.18.0
+198 verbose lock axios@^0.18.0 /root/.npm/cc9fc2e7-axios-0-18-0.lock
+199 verbose cache add name="cheerio" spec="^1.0.0-rc.2" args=["cheerio","^1.0.0-rc.2"]
+200 verbose parsed url Url {
+200 verbose parsed url   protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '%5E1.0.0-rc.2',
+200 verbose parsed url   path: '%5E1.0.0-rc.2',
+200 verbose parsed url   href: '%5E1.0.0-rc.2' }
+201 verbose addNamed [ 'cheerio', '^1.0.0-rc.2' ]
+202 verbose addNamed [ null, '>=1.0.0-rc.2 <2.0.0' ]
+203 silly lockFile 4746753e-cheerio-1-0-0-rc-2 cheerio@^1.0.0-rc.2
+204 verbose lock cheerio@^1.0.0-rc.2 /root/.npm/4746753e-cheerio-1-0-0-rc-2.lock
+205 verbose cache add name="colors" spec="^1.1.2" args=["colors","^1.1.2"]
+206 verbose parsed url Url {
+206 verbose parsed url   protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '%5E1.1.2',
+206 verbose parsed url   path: '%5E1.1.2',
+206 verbose parsed url   href: '%5E1.1.2' }
+207 verbose addNamed [ 'colors', '^1.1.2' ]
+208 verbose addNamed [ null, '>=1.1.2 <2.0.0' ]
+209 silly lockFile 8d2a5ca0-colors-1-1-2 colors@^1.1.2
+210 verbose lock colors@^1.1.2 /root/.npm/8d2a5ca0-colors-1-1-2.lock
+211 silly addNameRange { name: 'configstore', range: '>=4.0.0 <5.0.0', hasData: false }
+212 silly addNameRange { name: 'escodegen', range: '>=1.9.1 <2.0.0', hasData: false }
+213 silly addNameRange { name: 'esprima', range: '>=4.0.0 <5.0.0', hasData: false }
+214 verbose cache add name="3846masa/axios-cookiejar-support" spec="^0.3.1" args=["3846masa/axios-cookiejar-support","^0.3.1"]
+215 verbose parsed url Url {
+215 verbose parsed url   protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '%5E0.3.1',
+215 verbose parsed url   path: '%5E0.3.1',
+215 verbose parsed url   href: '%5E0.3.1' }
+216 verbose addNamed [ '3846masa/axios-cookiejar-support', '^0.3.1' ]
+217 verbose addNamed [ null, '>=0.3.1 <0.4.0' ]
+218 silly lockFile 932fdac9-sa-axios-cookiejar-support-0-3-1 3846masa/axios-cookiejar-support@^0.3.1
+219 verbose lock 3846masa/axios-cookiejar-support@^0.3.1 /root/.npm/932fdac9-sa-axios-cookiejar-support-0-3-1.lock
+220 verbose request where is /configstore
+221 verbose request registry https://registry.npmjs.org/
+222 verbose url raw /configstore
+223 verbose url resolving [ 'https://registry.npmjs.org/', './configstore' ]
+224 verbose url resolved https://registry.npmjs.org/configstore
+225 verbose request where is https://registry.npmjs.org/configstore
+226 info trying registry request attempt 1 at 22:19:07
+227 http GET https://registry.npmjs.org/configstore
+228 verbose request where is /escodegen
+229 verbose request registry https://registry.npmjs.org/
+230 verbose url raw /escodegen
+231 verbose url resolving [ 'https://registry.npmjs.org/', './escodegen' ]
+232 verbose url resolved https://registry.npmjs.org/escodegen
+233 verbose request where is https://registry.npmjs.org/escodegen
+234 info trying registry request attempt 1 at 22:19:07
+235 http GET https://registry.npmjs.org/escodegen
+236 verbose request where is /esprima
+237 verbose request registry https://registry.npmjs.org/
+238 verbose url raw /esprima
+239 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+240 verbose url resolved https://registry.npmjs.org/esprima
+241 verbose request where is https://registry.npmjs.org/esprima
+242 info trying registry request attempt 1 at 22:19:07
+243 http GET https://registry.npmjs.org/esprima
+244 silly addNameRange { name: 'esrecurse', range: '>=4.2.1 <5.0.0', hasData: false }
+245 silly addNameRange { name: 'fs-extra', range: '>=6.0.0 <7.0.0', hasData: false }
+246 silly addNameRange { name: 'inquirer', range: '>=6.0.0 <7.0.0', hasData: false }
+247 silly addNameRange { name: 'log4js', range: '>=3.0.0 <4.0.0', hasData: false }
+248 silly addNameRange { name: 'progress', range: '>=2.0.0 <3.0.0', hasData: false }
+249 silly addNameRange { name: 'static-eval', range: '>=2.0.0 <3.0.0', hasData: false }
+250 silly addNameRange { name: 'tough-cookie', range: '>=2.3.3 <3.0.0', hasData: false }
+251 silly addNameRange { name: 'yargs', range: '>=12.0.1 <13.0.0', hasData: false }
+252 silly addNameRange { name: 'axios', range: '>=0.18.0 <0.19.0', hasData: false }
+253 silly addNameRange { name: 'cheerio', range: '>=1.0.0-rc.2 <2.0.0', hasData: false }
+254 silly addNameRange { name: 'colors', range: '>=1.1.2 <2.0.0', hasData: false }
+255 verbose request where is /esrecurse
+256 verbose request registry https://registry.npmjs.org/
+257 verbose url raw /esrecurse
+258 verbose url resolving [ 'https://registry.npmjs.org/', './esrecurse' ]
+259 verbose url resolved https://registry.npmjs.org/esrecurse
+260 verbose request where is https://registry.npmjs.org/esrecurse
+261 info trying registry request attempt 1 at 22:19:07
+262 http GET https://registry.npmjs.org/esrecurse
+263 verbose request where is /fs-extra
+264 verbose request registry https://registry.npmjs.org/
+265 verbose url raw /fs-extra
+266 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra' ]
+267 verbose url resolved https://registry.npmjs.org/fs-extra
+268 verbose request where is https://registry.npmjs.org/fs-extra
+269 info trying registry request attempt 1 at 22:19:07
+270 http GET https://registry.npmjs.org/fs-extra
+271 verbose request where is /inquirer
+272 verbose request registry https://registry.npmjs.org/
+273 verbose url raw /inquirer
+274 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+275 verbose url resolved https://registry.npmjs.org/inquirer
+276 verbose request where is https://registry.npmjs.org/inquirer
+277 info trying registry request attempt 1 at 22:19:07
+278 http GET https://registry.npmjs.org/inquirer
+279 verbose request where is /log4js
+280 verbose request registry https://registry.npmjs.org/
+281 verbose url raw /log4js
+282 verbose url resolving [ 'https://registry.npmjs.org/', './log4js' ]
+283 verbose url resolved https://registry.npmjs.org/log4js
+284 verbose request where is https://registry.npmjs.org/log4js
+285 info trying registry request attempt 1 at 22:19:07
+286 http GET https://registry.npmjs.org/log4js
+287 verbose request where is /progress
+288 verbose request registry https://registry.npmjs.org/
+289 verbose url raw /progress
+290 verbose url resolving [ 'https://registry.npmjs.org/', './progress' ]
+291 verbose url resolved https://registry.npmjs.org/progress
+292 verbose request where is https://registry.npmjs.org/progress
+293 info trying registry request attempt 1 at 22:19:07
+294 http GET https://registry.npmjs.org/progress
+295 verbose request where is /static-eval
+296 verbose request registry https://registry.npmjs.org/
+297 verbose url raw /static-eval
+298 verbose url resolving [ 'https://registry.npmjs.org/', './static-eval' ]
+299 verbose url resolved https://registry.npmjs.org/static-eval
+300 verbose request where is https://registry.npmjs.org/static-eval
+301 info trying registry request attempt 1 at 22:19:07
+302 http GET https://registry.npmjs.org/static-eval
+303 verbose request where is /tough-cookie
+304 verbose request registry https://registry.npmjs.org/
+305 verbose url raw /tough-cookie
+306 verbose url resolving [ 'https://registry.npmjs.org/', './tough-cookie' ]
+307 verbose url resolved https://registry.npmjs.org/tough-cookie
+308 verbose request where is https://registry.npmjs.org/tough-cookie
+309 info trying registry request attempt 1 at 22:19:07
+310 http GET https://registry.npmjs.org/tough-cookie
+311 verbose request where is /yargs
+312 verbose request registry https://registry.npmjs.org/
+313 verbose url raw /yargs
+314 verbose url resolving [ 'https://registry.npmjs.org/', './yargs' ]
+315 verbose url resolved https://registry.npmjs.org/yargs
+316 verbose request where is https://registry.npmjs.org/yargs
+317 info trying registry request attempt 1 at 22:19:07
+318 http GET https://registry.npmjs.org/yargs
+319 verbose request where is /axios
+320 verbose request registry https://registry.npmjs.org/
+321 verbose url raw /axios
+322 verbose url resolving [ 'https://registry.npmjs.org/', './axios' ]
+323 verbose url resolved https://registry.npmjs.org/axios
+324 verbose request where is https://registry.npmjs.org/axios
+325 info trying registry request attempt 1 at 22:19:07
+326 http GET https://registry.npmjs.org/axios
+327 silly addNameRange { name: '3846masa/axios-cookiejar-support',
+327 silly addNameRange   range: '>=0.3.1 <0.4.0',
+327 silly addNameRange   hasData: false }
+328 verbose request where is /cheerio
+329 verbose request registry https://registry.npmjs.org/
+330 verbose url raw /cheerio
+331 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+332 verbose url resolved https://registry.npmjs.org/cheerio
+333 verbose request where is https://registry.npmjs.org/cheerio
+334 info trying registry request attempt 1 at 22:19:07
+335 http GET https://registry.npmjs.org/cheerio
+336 verbose request where is /colors
+337 verbose request registry https://registry.npmjs.org/
+338 verbose url raw /colors
+339 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+340 verbose url resolved https://registry.npmjs.org/colors
+341 verbose request where is https://registry.npmjs.org/colors
+342 info trying registry request attempt 1 at 22:19:07
+343 http GET https://registry.npmjs.org/colors
+344 verbose request where is /3846masa/axios-cookiejar-support
+345 verbose request registry https://registry.npmjs.org/
+346 verbose url raw /3846masa/axios-cookiejar-support
+347 verbose url resolving [ 'https://registry.npmjs.org/',
+347 verbose url resolving   './3846masa/axios-cookiejar-support' ]
+348 verbose url resolved https://registry.npmjs.org/3846masa/axios-cookiejar-support
+349 verbose request where is https://registry.npmjs.org/3846masa/axios-cookiejar-support
+350 info trying registry request attempt 1 at 22:19:07
+351 http GET https://registry.npmjs.org/3846masa/axios-cookiejar-support
+352 http 200 https://registry.npmjs.org/configstore
+353 silly registry.get cb [ 200,
+353 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+353 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+353 silly registry.get     'transfer-encoding': 'chunked',
+353 silly registry.get     connection: 'close',
+353 silly registry.get     'set-cookie':
+353 silly registry.get      [ '__cfduid=d9c6bd09267993dcf1bd7d7dce3ba56581540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+353 silly registry.get     'cf-cache-status': 'HIT',
+353 silly registry.get     'cache-control': 'max-age=300',
+353 silly registry.get     'cf-ray': '46d094b1bc35250d-ORD',
+353 silly registry.get     etag: 'W/"a3d8aebe5809a0e6922d2d331cde87de"',
+353 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+353 silly registry.get     'last-modified': 'Sat, 28 Jul 2018 16:01:05 GMT',
+353 silly registry.get     vary: 'accept-encoding, accept',
+353 silly registry.get     server: 'cloudflare',
+353 silly registry.get     'content-encoding': 'gzip' } ]
+354 http 200 https://registry.npmjs.org/esrecurse
+355 silly registry.get cb [ 200,
+355 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+355 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+355 silly registry.get     'transfer-encoding': 'chunked',
+355 silly registry.get     connection: 'close',
+355 silly registry.get     'set-cookie':
+355 silly registry.get      [ '__cfduid=d53c5ceecae286b79709f1d4728e3dcdc1540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+355 silly registry.get     'cf-cache-status': 'HIT',
+355 silly registry.get     'cache-control': 'max-age=300',
+355 silly registry.get     'cf-ray': '46d094b1efff25bb-ORD',
+355 silly registry.get     etag: 'W/"57fc14ebcaf093359dd05075832a9e43"',
+355 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+355 silly registry.get     'last-modified': 'Sat, 26 May 2018 23:55:58 GMT',
+355 silly registry.get     vary: 'accept-encoding, accept',
+355 silly registry.get     server: 'cloudflare',
+355 silly registry.get     'content-encoding': 'gzip' } ]
+356 http 200 https://registry.npmjs.org/esprima
+357 silly registry.get cb [ 200,
+357 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+357 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+357 silly registry.get     'transfer-encoding': 'chunked',
+357 silly registry.get     connection: 'close',
+357 silly registry.get     'set-cookie':
+357 silly registry.get      [ '__cfduid=dad273430a9879db63375d4aff4ed760c1540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+357 silly registry.get     'cf-cache-status': 'HIT',
+357 silly registry.get     'cache-control': 'max-age=300',
+357 silly registry.get     'cf-ray': '46d094b1de1554f2-ORD',
+357 silly registry.get     etag: 'W/"5178bc20ee4406fba7463cc2736576e8"',
+357 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+357 silly registry.get     'last-modified': 'Fri, 13 Jul 2018 08:39:20 GMT',
+357 silly registry.get     vary: 'accept-encoding, accept',
+357 silly registry.get     server: 'cloudflare',
+357 silly registry.get     'content-encoding': 'gzip' } ]
+358 http 200 https://registry.npmjs.org/static-eval
+359 silly registry.get cb [ 200,
+359 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+359 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+359 silly registry.get     'transfer-encoding': 'chunked',
+359 silly registry.get     connection: 'close',
+359 silly registry.get     'set-cookie':
+359 silly registry.get      [ '__cfduid=d123278a89e17a5de42ff1f3cb6c0b0ad1540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+359 silly registry.get     'cf-cache-status': 'HIT',
+359 silly registry.get     'cache-control': 'max-age=300',
+359 silly registry.get     'cf-ray': '46d094b1eec79da3-ORD',
+359 silly registry.get     etag: 'W/"cc8b4d55d35e402665138134f38fb9d4"',
+359 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+359 silly registry.get     'last-modified': 'Sun, 27 May 2018 18:13:12 GMT',
+359 silly registry.get     vary: 'accept-encoding, accept',
+359 silly registry.get     server: 'cloudflare',
+359 silly registry.get     'content-encoding': 'gzip' } ]
+360 http 200 https://registry.npmjs.org/escodegen
+361 silly registry.get cb [ 200,
+361 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+361 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+361 silly registry.get     'transfer-encoding': 'chunked',
+361 silly registry.get     connection: 'close',
+361 silly registry.get     'set-cookie':
+361 silly registry.get      [ '__cfduid=d60f243d0487000f6841b2ed5f29abec41540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+361 silly registry.get     'cf-cache-status': 'HIT',
+361 silly registry.get     'cache-control': 'max-age=300',
+361 silly registry.get     'cf-ray': '46d094b1def39dc1-ORD',
+361 silly registry.get     etag: 'W/"064e75cccecd1a4860b56edaf0678ff4"',
+361 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+361 silly registry.get     'last-modified': 'Sat, 14 Jul 2018 16:51:21 GMT',
+361 silly registry.get     vary: 'accept-encoding, accept',
+361 silly registry.get     server: 'cloudflare',
+361 silly registry.get     'content-encoding': 'gzip' } ]
+362 silly addNameRange number 2 { name: 'configstore', range: '>=4.0.0 <5.0.0', hasData: true }
+363 silly addNameRange versions [ 'configstore',
+363 silly addNameRange   [ '0.1.0',
+363 silly addNameRange     '0.1.1',
+363 silly addNameRange     '0.1.2',
+363 silly addNameRange     '0.1.3',
+363 silly addNameRange     '0.1.4',
+363 silly addNameRange     '0.1.5',
+363 silly addNameRange     '0.1.6',
+363 silly addNameRange     '0.1.7',
+363 silly addNameRange     '0.2.0',
+363 silly addNameRange     '0.2.1',
+363 silly addNameRange     '0.2.2',
+363 silly addNameRange     '0.2.3',
+363 silly addNameRange     '0.3.0',
+363 silly addNameRange     '0.3.1',
+363 silly addNameRange     '0.3.2',
+363 silly addNameRange     '1.0.0',
+363 silly addNameRange     '1.1.0',
+363 silly addNameRange     '1.2.0',
+363 silly addNameRange     '1.2.1',
+363 silly addNameRange     '1.3.0',
+363 silly addNameRange     '1.4.0',
+363 silly addNameRange     '2.0.0',
+363 silly addNameRange     '2.1.0',
+363 silly addNameRange     '3.0.0',
+363 silly addNameRange     '3.1.0',
+363 silly addNameRange     '3.1.1',
+363 silly addNameRange     '3.1.2',
+363 silly addNameRange     '4.0.0' ] ]
+364 verbose addNamed [ 'configstore', '4.0.0' ]
+365 verbose addNamed [ '4.0.0', '4.0.0' ]
+366 silly lockFile 682be9c5-configstore-4-0-0 configstore@4.0.0
+367 verbose lock configstore@4.0.0 /root/.npm/682be9c5-configstore-4-0-0.lock
+368 http 200 https://registry.npmjs.org/progress
+369 silly registry.get cb [ 200,
+369 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+369 silly registry.get     'content-type': 'application/json',
+369 silly registry.get     'transfer-encoding': 'chunked',
+369 silly registry.get     connection: 'close',
+369 silly registry.get     'set-cookie':
+369 silly registry.get      [ '__cfduid=d6b087d7eafb77aa0c0a589efe76d4c8b1540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+369 silly registry.get     'cf-cache-status': 'HIT',
+369 silly registry.get     'cache-control': 'max-age=300',
+369 silly registry.get     'cf-ray': '46d094b1ec695564-ORD',
+369 silly registry.get     etag: 'W/"a15c67eea078663a31f4e614fc6910ea"',
+369 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+369 silly registry.get     'last-modified': 'Wed, 17 Oct 2018 08:26:54 GMT',
+369 silly registry.get     vary: 'accept-encoding, accept',
+369 silly registry.get     'x-amz-meta-rev': '183-7d7831b31af47b058fb2afab4991dc86',
+369 silly registry.get     server: 'cloudflare',
+369 silly registry.get     'content-encoding': 'gzip' } ]
+370 silly addNameRange number 2 { name: 'esrecurse', range: '>=4.2.1 <5.0.0', hasData: true }
+371 silly addNameRange versions [ 'esrecurse',
+371 silly addNameRange   [ '1.0.0',
+371 silly addNameRange     '1.0.1',
+371 silly addNameRange     '1.1.0',
+371 silly addNameRange     '1.2.0',
+371 silly addNameRange     '2.0.0',
+371 silly addNameRange     '3.0.0',
+371 silly addNameRange     '3.1.0',
+371 silly addNameRange     '3.1.1',
+371 silly addNameRange     '4.0.0',
+371 silly addNameRange     '4.1.0',
+371 silly addNameRange     '4.2.0',
+371 silly addNameRange     '4.2.1' ] ]
+372 verbose addNamed [ 'esrecurse', '4.2.1' ]
+373 verbose addNamed [ '4.2.1', '4.2.1' ]
+374 silly lockFile a20d44d5-esrecurse-4-2-1 esrecurse@4.2.1
+375 verbose lock esrecurse@4.2.1 /root/.npm/a20d44d5-esrecurse-4-2-1.lock
+376 silly lockFile e4c10e71-onfigstore-configstore-4-0-0-tgz https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+377 verbose lock https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz /root/.npm/e4c10e71-onfigstore-configstore-4-0-0-tgz.lock
+378 silly lockFile 94c5c99e-rg-esrecurse-esrecurse-4-2-1-tgz https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+379 verbose lock https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz /root/.npm/94c5c99e-rg-esrecurse-esrecurse-4-2-1-tgz.lock
+380 http 200 https://registry.npmjs.org/tough-cookie
+381 silly registry.get cb [ 200,
+381 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+381 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+381 silly registry.get     'transfer-encoding': 'chunked',
+381 silly registry.get     connection: 'close',
+381 silly registry.get     'set-cookie':
+381 silly registry.get      [ '__cfduid=d80d24684873843d995664478142e48e51540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+381 silly registry.get     'cf-cache-status': 'HIT',
+381 silly registry.get     'cache-control': 'max-age=300',
+381 silly registry.get     'cf-ray': '46d094b1eeac71cd-ORD',
+381 silly registry.get     etag: 'W/"ebf117a3ca251251a3970463ef8a91ce"',
+381 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+381 silly registry.get     'last-modified': 'Mon, 25 Jun 2018 20:56:58 GMT',
+381 silly registry.get     vary: 'accept-encoding, accept',
+381 silly registry.get     server: 'cloudflare',
+381 silly registry.get     'content-encoding': 'gzip' } ]
+382 silly addNameRange number 2 { name: 'esprima', range: '>=4.0.0 <5.0.0', hasData: true }
+383 silly addNameRange versions [ 'esprima',
+383 silly addNameRange   [ '0.7.0',
+383 silly addNameRange     '0.8.0',
+383 silly addNameRange     '0.8.1',
+383 silly addNameRange     '0.8.2',
+383 silly addNameRange     '0.9.0',
+383 silly addNameRange     '0.9.1',
+383 silly addNameRange     '0.9.2',
+383 silly addNameRange     '0.9.3',
+383 silly addNameRange     '0.9.4',
+383 silly addNameRange     '0.9.5',
+383 silly addNameRange     '0.9.6',
+383 silly addNameRange     '0.9.7',
+383 silly addNameRange     '0.9.8',
+383 silly addNameRange     '0.9.9',
+383 silly addNameRange     '1.0.0',
+383 silly addNameRange     '1.0.1',
+383 silly addNameRange     '1.0.2',
+383 silly addNameRange     '1.0.3',
+383 silly addNameRange     '1.0.4',
+383 silly addNameRange     '1.1.0',
+383 silly addNameRange     '1.1.1',
+383 silly addNameRange     '1.2.0',
+383 silly addNameRange     '1.2.1',
+383 silly addNameRange     '1.2.2',
+383 silly addNameRange     '1.2.3',
+383 silly addNameRange     '1.2.4',
+383 silly addNameRange     '2.0.0',
+383 silly addNameRange     '1.2.5',
+383 silly addNameRange     '2.1.0',
+383 silly addNameRange     '2.2.0',
+383 silly addNameRange     '2.3.0',
+383 silly addNameRange     '2.4.0',
+383 silly addNameRange     '2.4.1',
+383 silly addNameRange     '2.5.0',
+383 silly addNameRange     '2.6.0',
+383 silly addNameRange     '2.7.0',
+383 silly addNameRange     '2.7.1',
+383 silly addNameRange     '2.7.2',
+383 silly addNameRange     '2.7.3',
+383 silly addNameRange     '3.0.0',
+383 silly addNameRange     '3.1.0',
+383 silly addNameRange     '3.1.1',
+383 silly addNameRange     '3.1.2',
+383 silly addNameRange     '3.1.3',
+383 silly addNameRange     '4.0.0',
+383 silly addNameRange     '4.0.1' ] ]
+384 verbose addNamed [ 'esprima', '4.0.1' ]
+385 verbose addNamed [ '4.0.1', '4.0.1' ]
+386 silly lockFile 10520a05-esprima-4-0-1 esprima@4.0.1
+387 verbose lock esprima@4.0.1 /root/.npm/10520a05-esprima-4-0-1.lock
+388 silly addNameRange number 2 { name: 'static-eval', range: '>=2.0.0 <3.0.0', hasData: true }
+389 silly addNameRange versions [ 'static-eval',
+389 silly addNameRange   [ '0.0.0',
+389 silly addNameRange     '0.1.0',
+389 silly addNameRange     '0.1.1',
+389 silly addNameRange     '0.2.0',
+389 silly addNameRange     '0.2.1',
+389 silly addNameRange     '0.2.2',
+389 silly addNameRange     '0.2.3',
+389 silly addNameRange     '0.2.4',
+389 silly addNameRange     '1.0.0',
+389 silly addNameRange     '1.1.0',
+389 silly addNameRange     '1.1.1',
+389 silly addNameRange     '2.0.0' ] ]
+390 verbose addNamed [ 'static-eval', '2.0.0' ]
+391 verbose addNamed [ '2.0.0', '2.0.0' ]
+392 silly lockFile e1b48085-static-eval-2-0-0 static-eval@2.0.0
+393 verbose lock static-eval@2.0.0 /root/.npm/e1b48085-static-eval-2-0-0.lock
+394 verbose addRemoteTarball [ 'https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz',
+394 verbose addRemoteTarball   '5933311e95d3687efb592c528b922d9262d227e7' ]
+395 verbose addRemoteTarball [ 'https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz',
+395 verbose addRemoteTarball   '007a3b9fdbc2b3bb87e4879ea19c92fdbd3942cf' ]
+396 silly addNameRange number 2 { name: 'escodegen', range: '>=1.9.1 <2.0.0', hasData: true }
+397 silly addNameRange versions [ 'escodegen',
+397 silly addNameRange   [ '0.0.1',
+397 silly addNameRange     '0.0.2',
+397 silly addNameRange     '0.0.3',
+397 silly addNameRange     '0.0.4',
+397 silly addNameRange     '0.0.5',
+397 silly addNameRange     '0.0.6',
+397 silly addNameRange     '0.0.7',
+397 silly addNameRange     '0.0.8',
+397 silly addNameRange     '0.0.9',
+397 silly addNameRange     '0.0.10',
+397 silly addNameRange     '0.0.11',
+397 silly addNameRange     '0.0.12',
+397 silly addNameRange     '0.0.14',
+397 silly addNameRange     '0.0.15',
+397 silly addNameRange     '0.0.16',
+397 silly addNameRange     '0.0.17',
+397 silly addNameRange     '0.0.18',
+397 silly addNameRange     '0.0.19',
+397 silly addNameRange     '0.0.20',
+397 silly addNameRange     '0.0.21',
+397 silly addNameRange     '0.0.22',
+397 silly addNameRange     '0.0.23',
+397 silly addNameRange     '0.0.24',
+397 silly addNameRange     '0.0.25',
+397 silly addNameRange     '0.0.26',
+397 silly addNameRange     '0.0.27',
+397 silly addNameRange     '0.0.28',
+397 silly addNameRange     '1.0.0',
+397 silly addNameRange     '1.0.1',
+397 silly addNameRange     '1.1.0',
+397 silly addNameRange     '1.2.0',
+397 silly addNameRange     '1.3.0',
+397 silly addNameRange     '1.3.1',
+397 silly addNameRange     '1.3.2',
+397 silly addNameRange     '1.3.3',
+397 silly addNameRange     '1.4.0',
+397 silly addNameRange     '1.4.1',
+397 silly addNameRange     '1.4.2',
+397 silly addNameRange     '1.4.3',
+397 silly addNameRange     '1.5.0',
+397 silly addNameRange     '1.6.0',
+397 silly addNameRange     '1.6.1',
+397 silly addNameRange     '1.7.0',
+397 silly addNameRange     '1.7.1',
+397 silly addNameRange     '1.8.0',
+397 silly addNameRange     '1.8.1',
+397 silly addNameRange     '1.9.0',
+397 silly addNameRange     '1.9.1',
+397 silly addNameRange     '1.10.0',
+397 silly addNameRange     '1.11.0' ] ]
+398 verbose addNamed [ 'escodegen', '1.11.0' ]
+399 verbose addNamed [ '1.11.0', '1.11.0' ]
+400 silly lockFile b90c45a5-escodegen-1-11-0 escodegen@1.11.0
+401 verbose lock escodegen@1.11.0 /root/.npm/b90c45a5-escodegen-1-11-0.lock
+402 http 200 https://registry.npmjs.org/axios
+403 silly registry.get cb [ 200,
+403 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+403 silly registry.get     'content-type': 'application/json',
+403 silly registry.get     'transfer-encoding': 'chunked',
+403 silly registry.get     connection: 'close',
+403 silly registry.get     'set-cookie':
+403 silly registry.get      [ '__cfduid=dd8043d290e21f017f15e61bd9d0435f01540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+403 silly registry.get     'cf-cache-status': 'HIT',
+403 silly registry.get     'cache-control': 'max-age=300',
+403 silly registry.get     'cf-ray': '46d094b209695516-ORD',
+403 silly registry.get     etag: 'W/"37b6a2de5411beef944c41c887241bed"',
+403 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+403 silly registry.get     'last-modified': 'Wed, 10 Oct 2018 05:14:28 GMT',
+403 silly registry.get     vary: 'accept-encoding, accept',
+403 silly registry.get     'x-amz-meta-rev': '666-551ca695ac8c6bc8c2170864dff6c24c',
+403 silly registry.get     server: 'cloudflare',
+403 silly registry.get     'content-encoding': 'gzip' } ]
+404 silly lockFile 521563b5-js-org-esprima-esprima-4-0-1-tgz https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz
+405 verbose lock https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz /root/.npm/521563b5-js-org-esprima-esprima-4-0-1-tgz.lock
+406 silly lockFile a36232e7-tatic-eval-static-eval-2-0-0-tgz https://registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz
+407 verbose lock https://registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz /root/.npm/a36232e7-tatic-eval-static-eval-2-0-0-tgz.lock
+408 info retry fetch attempt 1 at 22:19:08
+409 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+410 silly addNameRange number 2 { name: 'progress', range: '>=2.0.0 <3.0.0', hasData: true }
+411 silly addNameRange versions [ 'progress',
+411 silly addNameRange   [ '0.0.1',
+411 silly addNameRange     '0.0.2',
+411 silly addNameRange     '0.0.3',
+411 silly addNameRange     '0.0.4',
+411 silly addNameRange     '0.0.5',
+411 silly addNameRange     '0.1.0',
+411 silly addNameRange     '1.0.0',
+411 silly addNameRange     '1.0.1',
+411 silly addNameRange     '1.1.0',
+411 silly addNameRange     '1.1.2',
+411 silly addNameRange     '1.1.3',
+411 silly addNameRange     '1.1.4',
+411 silly addNameRange     '1.1.5',
+411 silly addNameRange     '1.1.6',
+411 silly addNameRange     '1.1.7',
+411 silly addNameRange     '1.1.8',
+411 silly addNameRange     '2.0.0',
+411 silly addNameRange     '2.0.1' ] ]
+412 verbose addNamed [ 'progress', '2.0.1' ]
+413 verbose addNamed [ '2.0.1', '2.0.1' ]
+414 silly lockFile 41b16fd0-progress-2-0-1 progress@2.0.1
+415 verbose lock progress@2.0.1 /root/.npm/41b16fd0-progress-2-0-1.lock
+416 info retry fetch attempt 1 at 22:19:08
+417 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+418 silly lockFile 9c930c68-g-escodegen-escodegen-1-11-0-tgz https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz
+419 verbose lock https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz /root/.npm/9c930c68-g-escodegen-escodegen-1-11-0-tgz.lock
+420 http 200 https://registry.npmjs.org/inquirer
+421 silly registry.get cb [ 200,
+421 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+421 silly registry.get     'content-type': 'application/json',
+421 silly registry.get     'transfer-encoding': 'chunked',
+421 silly registry.get     connection: 'close',
+421 silly registry.get     'set-cookie':
+421 silly registry.get      [ '__cfduid=d6518fabf1e7ee91940dfa7c3bd22b1f31540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+421 silly registry.get     'cf-cache-status': 'HIT',
+421 silly registry.get     'cache-control': 'max-age=300',
+421 silly registry.get     'cf-ray': '46d094b1ebfd2531-ORD',
+421 silly registry.get     etag: 'W/"a698bc572237ce873d99071937653ba2"',
+421 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+421 silly registry.get     'last-modified': 'Thu, 13 Sep 2018 07:45:52 GMT',
+421 silly registry.get     vary: 'accept-encoding, accept',
+421 silly registry.get     'x-amz-meta-rev': '595-ecc8287812762c972a02a980efbb8c18',
+421 silly registry.get     server: 'cloudflare',
+421 silly registry.get     'content-encoding': 'gzip' } ]
+422 verbose addRemoteTarball [ 'https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz',
+422 verbose addRemoteTarball   '13b04cdb3e6c5d19df91ab6987a8695619b0aa71' ]
+423 verbose addRemoteTarball [ 'https://registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz',
+423 verbose addRemoteTarball   '0e821f8926847def7b4b50cda5d55c04a9b13864' ]
+424 http GET https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+425 http GET https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+426 verbose addRemoteTarball [ 'https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz',
+426 verbose addRemoteTarball   'b27a9389481d5bfd5bec76f7bb1eb3f8f4556589' ]
+427 silly lockFile 2d419b22--org-progress-progress-2-0-1-tgz https://registry.npmjs.org/progress/-/progress-2.0.1.tgz
+428 verbose lock https://registry.npmjs.org/progress/-/progress-2.0.1.tgz /root/.npm/2d419b22--org-progress-progress-2-0-1-tgz.lock
+429 http 200 https://registry.npmjs.org/colors
+430 silly registry.get cb [ 200,
+430 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+430 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+430 silly registry.get     'transfer-encoding': 'chunked',
+430 silly registry.get     connection: 'close',
+430 silly registry.get     'set-cookie':
+430 silly registry.get      [ '__cfduid=d065aeb8ae00fc5fd5fbb278a27ed60101540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+430 silly registry.get     'cf-cache-status': 'HIT',
+430 silly registry.get     'cache-control': 'max-age=300',
+430 silly registry.get     'cf-ray': '46d094b21d679daf-ORD',
+430 silly registry.get     etag: 'W/"e93277e0f0e81315ee9f036864574e3a"',
+430 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+430 silly registry.get     'last-modified': 'Wed, 22 Aug 2018 18:48:54 GMT',
+430 silly registry.get     vary: 'accept-encoding, accept',
+430 silly registry.get     server: 'cloudflare',
+430 silly registry.get     'content-encoding': 'gzip' } ]
+431 http 200 https://registry.npmjs.org/log4js
+432 silly registry.get cb [ 200,
+432 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+432 silly registry.get     'content-type': 'application/json',
+432 silly registry.get     'transfer-encoding': 'chunked',
+432 silly registry.get     connection: 'close',
+432 silly registry.get     'set-cookie':
+432 silly registry.get      [ '__cfduid=de17827f06e3d09bec7f97f342c322e121540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+432 silly registry.get     'cf-cache-status': 'HIT',
+432 silly registry.get     'cache-control': 'max-age=300',
+432 silly registry.get     'cf-ray': '46d094b1efce258b-ORD',
+432 silly registry.get     etag: 'W/"0d39bd25f279f4d22ce58e6d847e565c"',
+432 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+432 silly registry.get     'last-modified': 'Mon, 08 Oct 2018 21:05:39 GMT',
+432 silly registry.get     vary: 'accept-encoding, accept',
+432 silly registry.get     'x-amz-meta-rev': '373-4176afa1fc4b19cd56bfcfc5318a0a79',
+432 silly registry.get     server: 'cloudflare',
+432 silly registry.get     'content-encoding': 'gzip' } ]
+433 http 405 https://registry.npmjs.org/3846masa/axios-cookiejar-support
+434 silly registry.get cb [ 405,
+434 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:08 GMT',
+434 silly registry.get     'content-type': 'application/json',
+434 silly registry.get     'content-length': '63',
+434 silly registry.get     connection: 'close',
+434 silly registry.get     'set-cookie':
+434 silly registry.get      [ '__cfduid=dfea7393f85530a6ce88e7db70da63f851540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+434 silly registry.get     allow: 'PUT',
+434 silly registry.get     'cf-ray': '46d094b22a3371a3-ORD',
+434 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+434 silly registry.get     vary: 'Accept-Encoding',
+434 silly registry.get     server: 'cloudflare' } ]
+435 silly addNameRange number 2 { name: 'tough-cookie', range: '>=2.3.3 <3.0.0', hasData: true }
+436 silly addNameRange versions [ 'tough-cookie',
+436 silly addNameRange   [ '0.9.0',
+436 silly addNameRange     '0.9.1',
+436 silly addNameRange     '0.9.3',
+436 silly addNameRange     '0.9.4',
+436 silly addNameRange     '0.9.5',
+436 silly addNameRange     '0.9.6',
+436 silly addNameRange     '0.9.7',
+436 silly addNameRange     '0.9.8',
+436 silly addNameRange     '0.9.9',
+436 silly addNameRange     '0.9.11',
+436 silly addNameRange     '0.9.12',
+436 silly addNameRange     '0.9.13',
+436 silly addNameRange     '0.9.14',
+436 silly addNameRange     '0.9.15',
+436 silly addNameRange     '0.10.0',
+436 silly addNameRange     '0.11.0',
+436 silly addNameRange     '0.12.0',
+436 silly addNameRange     '0.12.1',
+436 silly addNameRange     '0.13.0',
+436 silly addNameRange     '1.0.0',
+436 silly addNameRange     '1.1.0',
+436 silly addNameRange     '1.2.0',
+436 silly addNameRange     '2.0.0',
+436 silly addNameRange     '2.1.0',
+436 silly addNameRange     '2.2.0',
+436 silly addNameRange     '2.2.1',
+436 silly addNameRange     '2.2.2',
+436 silly addNameRange     '2.3.0',
+436 silly addNameRange     '2.3.1',
+436 silly addNameRange     '2.3.2',
+436 silly addNameRange     '2.3.3',
+436 silly addNameRange     '2.3.4',
+436 silly addNameRange     '2.4.2',
+436 silly addNameRange     '2.4.3' ] ]
+437 verbose addNamed [ 'tough-cookie', '2.4.3' ]
+438 verbose addNamed [ '2.4.3', '2.4.3' ]
+439 silly lockFile fc7f164c-tough-cookie-2-4-3 tough-cookie@2.4.3
+440 verbose lock tough-cookie@2.4.3 /root/.npm/fc7f164c-tough-cookie-2-4-3.lock
+441 info retry fetch attempt 1 at 22:19:08
+442 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz
+443 info retry fetch attempt 1 at 22:19:08
+444 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/esprima/-/esprima-4.0.1.tgz
+445 http 200 https://registry.npmjs.org/fs-extra
+446 silly registry.get cb [ 200,
+446 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+446 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+446 silly registry.get     'transfer-encoding': 'chunked',
+446 silly registry.get     connection: 'close',
+446 silly registry.get     'set-cookie':
+446 silly registry.get      [ '__cfduid=d802061710b2232cd41a98f149e92abf81540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+446 silly registry.get     'cf-cache-status': 'HIT',
+446 silly registry.get     'cache-control': 'max-age=300',
+446 silly registry.get     'cf-ray': '46d094b1ee3455dc-ORD',
+446 silly registry.get     etag: 'W/"d2c52974a84afbcc723e034fc872a45f"',
+446 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+446 silly registry.get     'last-modified': 'Fri, 10 Aug 2018 11:35:26 GMT',
+446 silly registry.get     vary: 'accept-encoding, accept',
+446 silly registry.get     server: 'cloudflare',
+446 silly registry.get     'content-encoding': 'gzip' } ]
+447 verbose addRemoteTarball [ 'https://registry.npmjs.org/progress/-/progress-2.0.1.tgz',
+447 verbose addRemoteTarball   'c9242169342b1c29d275889c95734621b1952e31' ]
+448 info retry fetch attempt 1 at 22:19:08
+449 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz
+450 http 200 https://registry.npmjs.org/cheerio
+451 silly registry.get cb [ 200,
+451 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+451 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+451 silly registry.get     'transfer-encoding': 'chunked',
+451 silly registry.get     connection: 'close',
+451 silly registry.get     'set-cookie':
+451 silly registry.get      [ '__cfduid=d284aa561efd3b97193b69ed9cb5bc21d1540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+451 silly registry.get     'cf-cache-status': 'HIT',
+451 silly registry.get     'cache-control': 'max-age=300',
+451 silly registry.get     'cf-ray': '46d094b20a1a255b-ORD',
+451 silly registry.get     etag: 'W/"a72f77fa404f2ed9c9b4df40c131416d"',
+451 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+451 silly registry.get     'last-modified': 'Fri, 03 Aug 2018 00:32:36 GMT',
+451 silly registry.get     vary: 'accept-encoding, accept',
+451 silly registry.get     server: 'cloudflare',
+451 silly registry.get     'content-encoding': 'gzip' } ]
+452 http GET https://registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz
+453 http GET https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz
+454 silly addNameRange number 2 { name: 'axios', range: '>=0.18.0 <0.19.0', hasData: true }
+455 silly addNameRange versions [ 'axios',
+455 silly addNameRange   [ '0.1.0',
+455 silly addNameRange     '0.2.0',
+455 silly addNameRange     '0.2.1',
+455 silly addNameRange     '0.2.2',
+455 silly addNameRange     '0.3.0',
+455 silly addNameRange     '0.3.1',
+455 silly addNameRange     '0.4.0',
+455 silly addNameRange     '0.4.1',
+455 silly addNameRange     '0.4.2',
+455 silly addNameRange     '0.5.0',
+455 silly addNameRange     '0.5.1',
+455 silly addNameRange     '0.5.2',
+455 silly addNameRange     '0.5.3',
+455 silly addNameRange     '0.5.4',
+455 silly addNameRange     '0.6.0',
+455 silly addNameRange     '0.7.0',
+455 silly addNameRange     '0.8.0',
+455 silly addNameRange     '0.8.1',
+455 silly addNameRange     '0.9.0',
+455 silly addNameRange     '0.9.1',
+455 silly addNameRange     '0.10.0',
+455 silly addNameRange     '0.11.0',
+455 silly addNameRange     '0.11.1',
+455 silly addNameRange     '0.12.0',
+455 silly addNameRange     '0.13.0',
+455 silly addNameRange     '0.13.1',
+455 silly addNameRange     '0.14.0',
+455 silly addNameRange     '0.15.0',
+455 silly addNameRange     '0.15.1',
+455 silly addNameRange     '0.15.2',
+455 silly addNameRange     '0.15.3',
+455 silly addNameRange     '0.16.0',
+455 silly addNameRange     '0.16.1',
+455 silly addNameRange     '0.16.2',
+455 silly addNameRange     '0.17.0',
+455 silly addNameRange     '0.17.1',
+455 silly addNameRange     '0.18.0',
+455 silly addNameRange     '0.19.0-beta.1' ] ]
+456 verbose addNamed [ 'axios', '0.18.0' ]
+457 verbose addNamed [ '0.18.0', '0.18.0' ]
+458 silly lockFile 86827f3e-axios-0-18-0 axios@0.18.0
+459 verbose lock axios@0.18.0 /root/.npm/86827f3e-axios-0-18-0.lock
+460 silly lockFile 193a5373-gh-cookie-tough-cookie-2-4-3-tgz https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz
+461 verbose lock https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz /root/.npm/193a5373-gh-cookie-tough-cookie-2-4-3-tgz.lock
+462 http GET https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz
+463 info retry fetch attempt 1 at 22:19:08
+464 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/progress/-/progress-2.0.1.tgz
+465 silly addNameRange number 2 { name: 'inquirer', range: '>=6.0.0 <7.0.0', hasData: true }
+466 silly addNameRange versions [ 'inquirer',
+466 silly addNameRange   [ '0.1.0',
+466 silly addNameRange     '0.1.1',
+466 silly addNameRange     '0.1.2',
+466 silly addNameRange     '0.1.3',
+466 silly addNameRange     '0.1.4',
+466 silly addNameRange     '0.1.5',
+466 silly addNameRange     '0.1.6',
+466 silly addNameRange     '0.1.7',
+466 silly addNameRange     '0.1.8',
+466 silly addNameRange     '0.1.9',
+466 silly addNameRange     '0.2.0',
+466 silly addNameRange     '0.2.1',
+466 silly addNameRange     '0.1.11',
+466 silly addNameRange     '0.1.12',
+466 silly addNameRange     '0.2.2',
+466 silly addNameRange     '0.2.3',
+466 silly addNameRange     '0.2.4',
+466 silly addNameRange     '0.2.5',
+466 silly addNameRange     '0.3.0',
+466 silly addNameRange     '0.3.1',
+466 silly addNameRange     '0.3.2',
+466 silly addNameRange     '0.3.3',
+466 silly addNameRange     '0.3.4',
+466 silly addNameRange     '0.3.5',
+466 silly addNameRange     '0.4.0',
+466 silly addNameRange     '0.4.1',
+466 silly addNameRange     '0.5.0',
+466 silly addNameRange     '0.5.1',
+466 silly addNameRange     '0.6.0',
+466 silly addNameRange     '0.7.1',
+466 silly addNameRange     '0.7.2',
+466 silly addNameRange     '0.7.3',
+466 silly addNameRange     '0.8.0',
+466 silly addNameRange     '0.8.2',
+466 silly addNameRange     '0.8.3',
+466 silly addNameRange     '0.8.4',
+466 silly addNameRange     '0.8.5',
+466 silly addNameRange     '0.9.0',
+466 silly addNameRange     '0.10.0',
+466 silly addNameRange     '0.10.1',
+466 silly addNameRange     '0.11.0',
+466 silly addNameRange     '0.11.1',
+466 silly addNameRange     '0.11.2',
+466 silly addNameRange     '0.11.3',
+466 silly addNameRange     '0.11.4',
+466 silly addNameRange     '0.12.0',
+466 silly addNameRange     '1.0.0',
+466 silly addNameRange     '1.0.1',
+466 silly addNameRange     '1.0.2',
+466 silly addNameRange     '1.0.3',
+466 silly addNameRange     '1.1.0',
+466 silly addNameRange     '1.1.1',
+466 silly addNameRange     '1.1.2',
+466 silly addNameRange     '1.1.3',
+466 silly addNameRange     '1.2.1',
+466 silly addNameRange     '1.2.2',
+466 silly addNameRange     '1.2.3',
+466 silly addNameRange     '2.0.0',
+466 silly addNameRange     '3.0.0',
+466 silly addNameRange     '3.0.1',
+466 silly addNameRange     '3.0.2',
+466 silly addNameRange     '3.0.3',
+466 silly addNameRange     '3.0.4',
+466 silly addNameRange     '3.0.5',
+466 silly addNameRange     '3.0.6',
+466 silly addNameRange     '3.1.0',
+466 silly addNameRange     '3.1.1',
+466 silly addNameRange     '3.2.0',
+466 silly addNameRange     '3.2.1',
+466 silly addNameRange     '3.2.2',
+466 silly addNameRange     '3.2.3',
+466 silly addNameRange     '3.3.0',
+466 silly addNameRange     '4.0.0',
+466 silly addNameRange     '4.0.1',
+466 silly addNameRange     '4.0.2',
+466 silly addNameRange     '5.0.0',
+466 silly addNameRange     '5.0.1',
+466 silly addNameRange     '5.1.0',
+466 silly addNameRange     '5.2.0',
+466 silly addNameRange     '6.0.0',
+466 silly addNameRange     '6.1.0',
+466 silly addNameRange     '6.2.0' ] ]
+467 verbose addNamed [ 'inquirer', '6.2.0' ]
+468 verbose addNamed [ '6.2.0', '6.2.0' ]
+469 silly lockFile 2b17b703-inquirer-6-2-0 inquirer@6.2.0
+470 verbose lock inquirer@6.2.0 /root/.npm/2b17b703-inquirer-6-2-0.lock
+471 verbose addRemoteTarball [ 'https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz',
+471 verbose addRemoteTarball   '53f36da3f47783b0925afa06ff9f3b165280f781' ]
+472 silly lockFile 2ad20046-npmjs-org-axios-axios-0-18-0-tgz https://registry.npmjs.org/axios/-/axios-0.18.0.tgz
+473 verbose lock https://registry.npmjs.org/axios/-/axios-0.18.0.tgz /root/.npm/2ad20046-npmjs-org-axios-axios-0-18-0-tgz.lock
+474 http GET https://registry.npmjs.org/progress/-/progress-2.0.1.tgz
+475 http 200 https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+476 silly addNameRange number 2 { name: 'colors', range: '>=1.1.2 <2.0.0', hasData: true }
+477 silly addNameRange versions [ 'colors',
+477 silly addNameRange   [ '0.3.0',
+477 silly addNameRange     '0.5.0',
+477 silly addNameRange     '0.5.1',
+477 silly addNameRange     '0.6.0',
+477 silly addNameRange     '0.6.0-1',
+477 silly addNameRange     '0.6.1',
+477 silly addNameRange     '0.6.2',
+477 silly addNameRange     '1.0.0',
+477 silly addNameRange     '1.0.1',
+477 silly addNameRange     '1.0.2',
+477 silly addNameRange     '1.0.3',
+477 silly addNameRange     '1.1.0',
+477 silly addNameRange     '1.1.1',
+477 silly addNameRange     '1.1.2',
+477 silly addNameRange     '1.2.0-rc0',
+477 silly addNameRange     '1.2.0',
+477 silly addNameRange     '1.2.1',
+477 silly addNameRange     '1.2.2',
+477 silly addNameRange     '1.2.3',
+477 silly addNameRange     '1.2.4',
+477 silly addNameRange     '1.2.5',
+477 silly addNameRange     '1.3.0',
+477 silly addNameRange     '1.3.1',
+477 silly addNameRange     '1.3.2' ] ]
+478 verbose addNamed [ 'colors', '1.3.2' ]
+479 verbose addNamed [ '1.3.2', '1.3.2' ]
+480 silly lockFile 3ca2cf15-colors-1-3-2 colors@1.3.2
+481 verbose lock colors@1.3.2 /root/.npm/3ca2cf15-colors-1-3-2.lock
+482 verbose addRemoteTarball [ 'https://registry.npmjs.org/axios/-/axios-0.18.0.tgz',
+482 verbose addRemoteTarball   '32d53e4851efdc0a11993b6cd000789d70c05102' ]
+483 silly lockFile 34247e6c--org-inquirer-inquirer-6-2-0-tgz https://registry.npmjs.org/inquirer/-/inquirer-6.2.0.tgz
+484 verbose lock https://registry.npmjs.org/inquirer/-/inquirer-6.2.0.tgz /root/.npm/34247e6c--org-inquirer-inquirer-6-2-0-tgz.lock
+485 http 200 https://registry.npmjs.org/yargs
+486 silly registry.get cb [ 200,
+486 silly registry.get   { date: 'Sun, 21 Oct 2018 03:19:07 GMT',
+486 silly registry.get     'content-type': 'application/json',
+486 silly registry.get     'transfer-encoding': 'chunked',
+486 silly registry.get     connection: 'close',
+486 silly registry.get     'set-cookie':
+486 silly registry.get      [ '__cfduid=de8819243ed7d6522c429d307e96dff361540091947; expires=Mon, 21-Oct-19 03:19:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+486 silly registry.get     'cf-cache-status': 'HIT',
+486 silly registry.get     'cache-control': 'max-age=300',
+486 silly registry.get     'cf-ray': '46d094b1e90d71e5-ORD',
+486 silly registry.get     etag: 'W/"ece8c555e86d72357a457b50ed5befc7"',
+486 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+486 silly registry.get     'last-modified': 'Sat, 06 Oct 2018 23:07:06 GMT',
+486 silly registry.get     vary: 'accept-encoding, accept',
+486 silly registry.get     'x-amz-meta-rev': '855-b0549d3b26363d3845feedfcbfd24268',
+486 silly registry.get     server: 'cloudflare',
+486 silly registry.get     'content-encoding': 'gzip' } ]
+487 silly addNameRange number 2 { name: 'log4js', range: '>=3.0.0 <4.0.0', hasData: true }
+488 silly addNameRange versions [ 'log4js',
+488 silly addNameRange   [ '0.1.0',
+488 silly addNameRange     '0.2.0',
+488 silly addNameRange     '0.2.2',
+488 silly addNameRange     '0.2.3',
+488 silly addNameRange     '0.2.4',
+488 silly addNameRange     '0.2.5',
+488 silly addNameRange     '0.2.6',
+488 silly addNameRange     '0.3.0',
+488 silly addNameRange     '0.3.1',
+488 silly addNameRange     '0.3.2',
+488 silly addNameRange     '0.3.3',
+488 silly addNameRange     '0.3.4',
+488 silly addNameRange     '0.3.5',
+488 silly addNameRange     '0.3.6',
+488 silly addNameRange     '0.3.7',
+488 silly addNameRange     '0.3.8',
+488 silly addNameRange     '0.3.9',
+488 silly addNameRange     '0.4.0',
+488 silly addNameRange     '0.4.1',
+488 silly addNameRange     '0.4.2',
+488 silly addNameRange     '0.4.3',
+488 silly addNameRange     '0.5.0',
+488 silly addNameRange     '0.5.1',
+488 silly addNameRange     '0.5.2',
+488 silly addNameRange     '0.5.3',
+488 silly addNameRange     '0.5.4',
+488 silly addNameRange     '0.5.5',
+488 silly addNameRange     '0.5.6',
+488 silly addNameRange     '0.5.7',
+488 silly addNameRange     '0.6.0',
+488 silly addNameRange     '0.6.1',
+488 silly addNameRange     '0.5.8',
+488 silly addNameRange     '0.6.2',
+488 silly addNameRange     '0.6.3',
+488 silly addNameRange     '0.6.4',
+488 silly addNameRange     '0.6.5',
+488 silly addNameRange     '0.6.6',
+488 silly addNameRange     '0.6.7',
+488 silly addNameRange     '0.6.8',
+488 silly addNameRange     '0.6.9',
+488 silly addNameRange     '0.6.10',
+488 silly addNameRange     '0.6.11',
+488 silly addNameRange     '0.6.12',
+488 silly addNameRange     '0.6.13',
+488 silly addNameRange     '0.6.14',
+488 silly addNameRange     '0.6.15',
+488 silly addNameRange     '0.6.16',
+488 silly addNameRange     '0.6.17',
+488 silly addNameRange     '0.6.18',
+488 silly addNameRange     '0.6.19',
+488 silly addNameRange     '0.6.20',
+488 silly addNameRange     '0.6.21',
+488 silly addNameRange     '0.6.22',
+488 silly addNameRange     '0.6.23',
+488 silly addNameRange     '0.6.24',
+488 silly addNameRange     '0.6.25',
+488 silly addNameRange     '0.6.26',
+488 silly addNameRange     '0.6.27',
+488 silly addNameRange     '0.6.28',
+488 silly addNameRange     '0.6.29',
+488 silly addNameRange     '0.6.30',
+488 silly addNameRange     '0.6.31',
+488 silly addNameRange     '0.6.32',
+488 silly addNameRange     '0.6.33',
+488 silly addNameRange     '0.6.34',
+488 silly addNameRange     '0.6.35',
+488 silly addNameRange     '0.6.36',
+488 silly addNameRange     '0.6.37',
+488 silly addNameRange     '0.6.38',
+488 silly addNameRange     '1.0.0',
+488 silly addNameRange     '1.0.1',
+488 silly addNameRange     '1.1.0',
+488 silly addNameRange     '1.1.1',
+488 silly addNameRange     '2.0.0',
+488 silly addNameRange     '2.0.1',
+488 silly addNameRange     '2.1.0',
+488 silly addNameRange     '2.2.0',
+488 silly addNameRange     '2.3.0',
+488 silly addNameRange     '2.3.1',
+488 silly addNameRange     '2.3.2',
+488 silly addNameRange     '2.3.3',
+488 silly addNameRange     '2.3.4',
+488 silly addNameRange     '2.3.5',
+488 silly addNameRange     '2.3.6',
+488 silly addNameRange     '2.3.7',
+488 silly addNameRange     '2.3.8',
+488 silly addNameRange     '2.3.9',
+488 silly addNameRange     '2.3.10',
+488 silly addNameRange     '2.3.11',
+488 silly addNameRange     '2.3.12',
+488 silly addNameRange     '2.4.1',
+488 silly addNameRange     '2.5.0',
+488 silly addNameRange     '2.5.1',
+488 silly addNameRange     '2.5.2',
+488 silly addNameRange     '2.5.3',
+488 silly addNameRange     '2.6.0',
+488 silly addNameRange     '2.6.1',
+488 silly addNameRange     '2.7.0',
+488 silly addNameRange     '2.8.0',
+488 silly addNameRange     '2.9.0',
+488 silly addNameRange     ... 9 more items ] ]
+489 verbose addNamed [ 'log4js', '3.0.6' ]
+490 verbose addNamed [ '3.0.6', '3.0.6' ]
+491 silly lockFile aa0154eb-log4js-3-0-6 log4js@3.0.6
+492 verbose lock log4js@3.0.6 /root/.npm/aa0154eb-log4js-3-0-6.lock
+493 silly addNameRange number 2 { name: 'fs-extra', range: '>=6.0.0 <7.0.0', hasData: true }
+494 silly addNameRange versions [ 'fs-extra',
+494 silly addNameRange   [ '0.0.1',
+494 silly addNameRange     '0.0.11',
+494 silly addNameRange     '0.0.3',
+494 silly addNameRange     '0.0.4',
+494 silly addNameRange     '0.1.0',
+494 silly addNameRange     '0.1.1',
+494 silly addNameRange     '0.1.2',
+494 silly addNameRange     '0.1.3',
+494 silly addNameRange     '0.2.0',
+494 silly addNameRange     '0.2.1',
+494 silly addNameRange     '0.3.0',
+494 silly addNameRange     '0.3.1',
+494 silly addNameRange     '0.3.2',
+494 silly addNameRange     '0.4.0',
+494 silly addNameRange     '0.5.0',
+494 silly addNameRange     '0.6.0',
+494 silly addNameRange     '0.6.1',
+494 silly addNameRange     '0.6.2',
+494 silly addNameRange     '0.6.3',
+494 silly addNameRange     '0.6.4',
+494 silly addNameRange     '0.7.0',
+494 silly addNameRange     '0.7.1',
+494 silly addNameRange     '0.8.0',
+494 silly addNameRange     '0.8.1',
+494 silly addNameRange     '0.9.0',
+494 silly addNameRange     '0.9.1',
+494 silly addNameRange     '0.10.0',
+494 silly addNameRange     '0.11.0',
+494 silly addNameRange     '0.11.1',
+494 silly addNameRange     '0.12.0',
+494 silly addNameRange     '0.13.0',
+494 silly addNameRange     '0.14.0',
+494 silly addNameRange     '0.15.0',
+494 silly addNameRange     '0.16.0',
+494 silly addNameRange     '0.16.1',
+494 silly addNameRange     '0.16.2',
+494 silly addNameRange     '0.16.3',
+494 silly addNameRange     '0.16.4',
+494 silly addNameRange     '0.16.5',
+494 silly addNameRange     '0.17.0',
+494 silly addNameRange     '0.18.0',
+494 silly addNameRange     '0.18.1',
+494 silly addNameRange     '0.18.2',
+494 silly addNameRange     '0.18.3',
+494 silly addNameRange     '0.18.4',
+494 silly addNameRange     '0.19.0',
+494 silly addNameRange     '0.20.0',
+494 silly addNameRange     '0.20.1',
+494 silly addNameRange     '0.21.0',
+494 silly addNameRange     '0.22.0',
+494 silly addNameRange     '0.22.1',
+494 silly addNameRange     '0.23.0',
+494 silly addNameRange     '0.23.1',
+494 silly addNameRange     '0.24.0',
+494 silly addNameRange     '0.25.0',
+494 silly addNameRange     '0.26.0',
+494 silly addNameRange     '0.26.1',
+494 silly addNameRange     '0.26.2',
+494 silly addNameRange     '0.26.3',
+494 silly addNameRange     '0.26.4',
+494 silly addNameRange     '0.26.5',
+494 silly addNameRange     '0.26.6',
+494 silly addNameRange     '0.26.7',
+494 silly addNameRange     '0.27.0',
+494 silly addNameRange     '0.28.0',
+494 silly addNameRange     '0.29.0',
+494 silly addNameRange     '0.30.0',
+494 silly addNameRange     '1.0.0',
+494 silly addNameRange     '2.0.0',
+494 silly addNameRange     '2.1.0',
+494 silly addNameRange     '2.1.1',
+494 silly addNameRange     '2.1.2',
+494 silly addNameRange     '3.0.0',
+494 silly addNameRange     '3.0.1',
+494 silly addNameRange     '4.0.0',
+494 silly addNameRange     '4.0.1',
+494 silly addNameRange     '4.0.2',
+494 silly addNameRange     '4.0.3',
+494 silly addNameRange     '5.0.0',
+494 silly addNameRange     '6.0.0',
+494 silly addNameRange     '6.0.1',
+494 silly addNameRange     '7.0.0' ] ]
+495 verbose addNamed [ 'fs-extra', '6.0.1' ]
+496 verbose addNamed [ '6.0.1', '6.0.1' ]
+497 silly lockFile d14b03a7-fs-extra-6-0-1 fs-extra@6.0.1
+498 verbose lock fs-extra@6.0.1 /root/.npm/d14b03a7-fs-extra-6-0-1.lock
+499 info retry fetch attempt 1 at 22:19:08
+500 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz
+501 http 200 https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+502 verbose addRemoteTarball [ 'https://registry.npmjs.org/inquirer/-/inquirer-6.2.0.tgz',
+502 verbose addRemoteTarball   '51adcd776f661369dc1e894859c2560a224abdd8' ]
+503 silly lockFile df6e3258-pmjs-org-colors-colors-1-3-2-tgz https://registry.npmjs.org/colors/-/colors-1.3.2.tgz
+504 verbose lock https://registry.npmjs.org/colors/-/colors-1.3.2.tgz /root/.npm/df6e3258-pmjs-org-colors-colors-1-3-2-tgz.lock
+505 http GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz
+506 silly addNameRange number 2 { name: 'cheerio', range: '>=1.0.0-rc.2 <2.0.0', hasData: true }
+507 silly addNameRange versions [ 'cheerio',
+507 silly addNameRange   [ '0.0.1',
+507 silly addNameRange     '0.0.2',
+507 silly addNameRange     '0.0.3',
+507 silly addNameRange     '0.0.4',
+507 silly addNameRange     '0.1.1',
+507 silly addNameRange     '0.1.2',
+507 silly addNameRange     '0.1.3',
+507 silly addNameRange     '0.1.4',
+507 silly addNameRange     '0.1.5',
+507 silly addNameRange     '0.2.0',
+507 silly addNameRange     '0.2.1',
+507 silly addNameRange     '0.2.2',
+507 silly addNameRange     '0.3.0',
+507 silly addNameRange     '0.3.1',
+507 silly addNameRange     '0.3.2',
+507 silly addNameRange     '0.4.0',
+507 silly addNameRange     '0.4.1',
+507 silly addNameRange     '0.4.2',
+507 silly addNameRange     '0.5.0',
+507 silly addNameRange     '0.5.1',
+507 silly addNameRange     '0.5.2',
+507 silly addNameRange     '0.6.0',
+507 silly addNameRange     '0.6.1',
+507 silly addNameRange     '0.6.2',
+507 silly addNameRange     '0.7.0',
+507 silly addNameRange     '0.8.0',
+507 silly addNameRange     '0.8.1',
+507 silly addNameRange     '0.8.2',
+507 silly addNameRange     '0.8.3',
+507 silly addNameRange     '0.9.0',
+507 silly addNameRange     '0.9.1',
+507 silly addNameRange     '0.9.2',
+507 silly addNameRange     '0.10.0',
+507 silly addNameRange     '0.10.1',
+507 silly addNameRange     '0.10.2',
+507 silly addNameRange     '0.10.3',
+507 silly addNameRange     '0.10.4',
+507 silly addNameRange     '0.10.5',
+507 silly addNameRange     '0.10.6',
+507 silly addNameRange     '0.10.7',
+507 silly addNameRange     '0.10.8',
+507 silly addNameRange     '0.11.0',
+507 silly addNameRange     '0.12.0',
+507 silly addNameRange     '0.12.1',
+507 silly addNameRange     '0.12.2',
+507 silly addNameRange     '0.12.3',
+507 silly addNameRange     '0.12.4',
+507 silly addNameRange     '0.13.0',
+507 silly addNameRange     '0.13.1',
+507 silly addNameRange     '0.14.0',
+507 silly addNameRange     '0.15.0',
+507 silly addNameRange     '0.16.0',
+507 silly addNameRange     '0.17.0',
+507 silly addNameRange     '0.18.0',
+507 silly addNameRange     '0.19.0',
+507 silly addNameRange     '0.20.0',
+507 silly addNameRange     '0.22.0',
+507 silly addNameRange     '1.0.0-rc.1',
+507 silly addNameRange     '1.0.0-rc.2' ] ]
+508 verbose addNamed [ 'cheerio', '1.0.0-rc.2' ]
+509 verbose addNamed [ '1.0.0-rc.2', '1.0.0-rc.2' ]
+510 silly lockFile acd13183-cheerio-1-0-0-rc-2 cheerio@1.0.0-rc.2
+511 verbose lock cheerio@1.0.0-rc.2 /root/.npm/acd13183-cheerio-1-0-0-rc-2.lock
+512 info retry fetch attempt 1 at 22:19:08
+513 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/axios/-/axios-0.18.0.tgz
+514 silly lockFile ae4ca850-pmjs-org-log4js-log4js-3-0-6-tgz https://registry.npmjs.org/log4js/-/log4js-3.0.6.tgz
+515 verbose lock https://registry.npmjs.org/log4js/-/log4js-3.0.6.tgz /root/.npm/ae4ca850-pmjs-org-log4js-log4js-3-0-6-tgz.lock
+516 silly lockFile 6397baeb--org-fs-extra-fs-extra-6-0-1-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-6.0.1.tgz
+517 verbose lock https://registry.npmjs.org/fs-extra/-/fs-extra-6.0.1.tgz /root/.npm/6397baeb--org-fs-extra-fs-extra-6-0-1-tgz.lock
+518 silly lockFile 932fdac9-sa-axios-cookiejar-support-0-3-1 3846masa/axios-cookiejar-support@^0.3.1
+519 silly lockFile 932fdac9-sa-axios-cookiejar-support-0-3-1 3846masa/axios-cookiejar-support@^0.3.1
+520 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-1.3.2.tgz',
+520 verbose addRemoteTarball   '2df8ff573dfbf255af562f8ce7181d6b971a359b' ]
+521 http GET https://registry.npmjs.org/axios/-/axios-0.18.0.tgz
+522 info retry fetch attempt 1 at 22:19:08
+523 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/inquirer/-/inquirer-6.2.0.tgz
+524 verbose about to build /usr/local/lib/node_modules/upload-gphotos
+525 verbose lib/node_modules/upload-gphotos unbuild
+526 info preuninstall upload-gphotos@2.0.13
+527 verbose addRemoteTarball [ 'https://registry.npmjs.org/log4js/-/log4js-3.0.6.tgz',
+527 verbose addRemoteTarball   'e6caced94967eeeb9ce399f9f8682a4b2b28c8ff' ]
+528 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs-extra/-/fs-extra-6.0.1.tgz',
+528 verbose addRemoteTarball   '8abc128f7946e310135ddc93b98bddb410e7a34b' ]
+529 silly lockFile 18f18fa0-g-cheerio-cheerio-1-0-0-rc-2-tgz https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.2.tgz
+530 verbose lock https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.2.tgz /root/.npm/18f18fa0-g-cheerio-cheerio-1-0-0-rc-2-tgz.lock
+531 http GET https://registry.npmjs.org/inquirer/-/inquirer-6.2.0.tgz
+532 info uninstall upload-gphotos@2.0.13
+533 info retry fetch attempt 1 at 22:19:08
+534 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/colors/-/colors-1.3.2.tgz
+535 verbose addRemoteTarball [ 'https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.2.tgz',
+535 verbose addRemoteTarball   '4b9f53a81b27e4d5dac31c0ffd0cfa03cc6830db' ]
+536 silly addNameRange number 2 { name: 'yargs', range: '>=12.0.1 <13.0.0', hasData: true }
+537 silly addNameRange versions [ 'yargs',
+537 silly addNameRange   [ '1.0.0',
+537 silly addNameRange     '1.0.1',
+537 silly addNameRange     '1.0.3',
+537 silly addNameRange     '1.0.4',
+537 silly addNameRange     '1.0.5',
+537 silly addNameRange     '1.0.6',
+537 silly addNameRange     '1.0.7',
+537 silly addNameRange     '1.0.8',
+537 silly addNameRange     '1.0.9',
+537 silly addNameRange     '1.0.10',
+537 silly addNameRange     '1.0.11',
+537 silly addNameRange     '1.0.12',
+537 silly addNameRange     '1.0.13',
+537 silly addNameRange     '1.0.15',
+537 silly addNameRange     '1.1.0',
+537 silly addNameRange     '1.1.1',
+537 silly addNameRange     '1.1.2',
+537 silly addNameRange     '1.1.3',
+537 silly addNameRange     '1.2.0',
+537 silly addNameRange     '1.2.1',
+537 silly addNameRange     '1.2.2',
+537 silly addNameRange     '1.2.3',
+537 silly addNameRange     '1.2.4',
+537 silly addNameRange     '1.2.5',
+537 silly addNameRange     '1.2.6',
+537 silly addNameRange     '1.3.0',
+537 silly addNameRange     '1.3.1',
+537 silly addNameRange     '1.3.2',
+537 silly addNameRange     '1.3.3',
+537 silly addNameRange     '2.1.1',
+537 silly addNameRange     '2.3.0',
+537 silly addNameRange     '3.0.0',
+537 silly addNameRange     '3.0.1',
+537 silly addNameRange     '3.0.2',
+537 silly addNameRange     '3.0.3',
+537 silly addNameRange     '3.0.4',
+537 silly addNameRange     '3.1.0',
+537 silly addNameRange     '3.2.1',
+537 silly addNameRange     '3.3.1',
+537 silly addNameRange     '3.4.0',
+537 silly addNameRange     '3.4.4',
+537 silly addNameRange     '3.4.5',
+537 silly addNameRange     '3.5.0',
+537 silly addNameRange     '3.5.1',
+537 silly addNameRange     '3.5.2',
+537 silly addNameRange     '3.5.3',
+537 silly addNameRange     '3.5.4',
+537 silly addNameRange     '3.6.0',
+537 silly addNameRange     '3.7.0',
+537 silly addNameRange     '3.7.1',
+537 silly addNameRange     '3.7.2',
+537 silly addNameRange     '3.8.0',
+537 silly addNameRange     '3.9.0',
+537 silly addNameRange     '3.9.1',
+537 silly addNameRange     '3.10.0',
+537 silly addNameRange     '3.11.0',
+537 silly addNameRange     '3.12.0',
+537 silly addNameRange     '3.13.0',
+537 silly addNameRange     '3.14.0',
+537 silly addNameRange     '3.15.0',
+537 silly addNameRange     '3.16.0',
+537 silly addNameRange     '3.16.1',
+537 silly addNameRange     '3.17.1',
+537 silly addNameRange     '3.18.0',
+537 silly addNameRange     '3.18.1',
+537 silly addNameRange     '3.19.0',
+537 silly addNameRange     '3.20.0',
+537 silly addNameRange     '3.21.0',
+537 silly addNameRange     '3.21.1',
+537 silly addNameRange     '3.22.0',
+537 silly addNameRange     '3.22.1',
+537 silly addNameRange     '3.22.2',
+537 silly addNameRange     '3.23.0',
+537 silly addNameRange     '3.24.0',
+537 silly addNameRange     '3.25.0',
+537 silly addNameRange     '3.26.0',
+537 silly addNameRange     '3.27.0',
+537 silly addNameRange     '3.28.0',
+537 silly addNameRange     '3.29.0',
+537 silly addNameRange     '3.30.0',
+537 silly addNameRange     '3.31.0',
+537 silly addNameRange     '3.32.0',
+537 silly addNameRange     '4.0.0-alpha1',
+537 silly addNameRange     '4.0.0-alpha2',
+537 silly addNameRange     '4.0.0-alpha3',
+537 silly addNameRange     '4.0.0-alpha4',
+537 silly addNameRange     '4.0.0-alpha5',
+537 silly addNameRange     '4.0.0',
+537 silly addNameRange     '4.1.0',
+537 silly addNameRange     '4.2.0',
+537 silly addNameRange     '4.3.0',
+537 silly addNameRange     '4.3.1',
+537 silly addNameRange     '4.3.2',
+537 silly addNameRange     '4.4.0',
+537 silly addNameRange     '4.5.0',
+537 silly addNameRange     '4.6.0-candidate',
+537 silly addNameRange     '4.6.0',
+537 silly addNameRange     '4.7.0-pre',
+537 silly addNameRange     '4.7.0',
+537 silly addNameRange     '4.7.1',
+537 silly addNameRange     ... 60 more items ] ]
+538 verbose addNamed [ 'yargs', '12.0.2' ]
+539 verbose addNamed [ '12.0.2', '12.0.2' ]
+540 silly lockFile 137b33c8-yargs-12-0-2 yargs@12.0.2
+541 verbose lock yargs@12.0.2 /root/.npm/137b33c8-yargs-12-0-2.lock
+542 info retry fetch attempt 1 at 22:19:08
+543 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/log4js/-/log4js-3.0.6.tgz
+544 info retry fetch attempt 1 at 22:19:08
+545 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/fs-extra/-/fs-extra-6.0.1.tgz
+546 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild upload-gphotos@2.0.13
+547 verbose /usr/local/bin,[object Object] binRoot
+548 http GET https://registry.npmjs.org/colors/-/colors-1.3.2.tgz
+549 http GET https://registry.npmjs.org/log4js/-/log4js-3.0.6.tgz
+550 http GET https://registry.npmjs.org/fs-extra/-/fs-extra-6.0.1.tgz
+551 http 200 https://registry.npmjs.org/static-eval/-/static-eval-2.0.0.tgz
+552 info retry fetch attempt 1 at 22:19:08
+553 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.2.tgz
+554 silly lockFile 03519386-npmjs-org-yargs-yargs-12-0-2-tgz https://registry.npmjs.org/yargs/-/yargs-12.0.2.tgz
+555 verbose lock https://registry.npmjs.org/yargs/-/yargs-12.0.2.tgz /root/.npm/03519386-npmjs-org-yargs-yargs-12-0-2-tgz.lock
+556 info postuninstall upload-gphotos@2.0.13
+557 http 200 https://registry.npmjs.org/escodegen/-/escodegen-1.11.0.tgz
+558 http GET https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.2.tgz
+559 verbose addRemoteTarball [ 'https://registry.npmjs.org/yargs/-/yargs-12.0.2.tgz',
+559 verbose addRemoteTarball   'fe58234369392af33ecbef53819171eff0f5aadc' ]
+560 info retry fetch attempt 1 at 22:19:08
+561 verbose fetch to= /tmp/npm-3797-am4GHUCX/registry.npmjs.org/yargs/-/yargs-12.0.2.tgz
+562 http GET https://registry.npmjs.org/yargs/-/yargs-12.0.2.tgz
+563 http 200 https://registry.npmjs.org/progress/-/progress-2.0.1.tgz
+564 silly lockFile e4c10e71-onfigstore-configstore-4-0-0-tgz https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+565 silly lockFile e4c10e71-onfigstore-configstore-4-0-0-tgz https://registry.npmjs.org/configstore/-/configstore-4.0.0.tgz
+566 http 200 https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz
+567 silly lockFile 94c5c99e-rg-esrecurse-esrecurse-4-2-1-tgz https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+568 silly lockFile 94c5c99e-rg-esrecurse-esrecurse-4-2-1-tgz https://registry.npmjs.org/esrecurse/-/esrecurse-4.2.1.tgz
+569 silly lockFile 682be9c5-configstore-4-0-0 configstore@4.0.0
+570 silly lockFile 682be9c5-configstore-4-0-0 configstore@4.0.0
+571 silly lockFile a20d44d5-esrecurse-4-2-1 esrecurse@4.2.1
+572 silly lockFile a20d44d5-esrecurse-4-2-1 esrecurse@4.2.1
+573 silly lockFile aa48894a-configstore-4-0-0 configstore@^4.0.0
+574 silly lockFile aa48894a-configstore-4-0-0 configstore@^4.0.0
+575 silly lockFile 93dcef54-esrecurse-4-2-1 esrecurse@^4.2.1
+576 silly lockFile 93dcef54-esrecurse-4-2-1 esrecurse@^4.2.1
+577 error Error: Method Not Allowed
+577 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+577 error     at /usr/share/npm/lib/cache/add-named.js:203:12
+577 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+577 error     at FSReqWrap.oncomplete (fs.js:135:15)
+578 error If you need help, you may report this *entire* log,
+578 error including the npm and node versions, at:
+578 error     <http://github.com/npm/npm/issues>
+579 error System Linux 4.14.34-v7+
+580 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "upload-gphotos"
+581 error cwd /home/pi/photobooth
+582 error node -v v8.11.1
+583 error npm -v 1.4.21
+584 error code E405
+585 verbose exit [ 1, true ]

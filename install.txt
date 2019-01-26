@@ -1,0 +1,16 @@
+  129  pip install PiCamera
+  134  apt-get install python3-picamera
+  140  apt-get install cups-client
+  142  apt-get install cups-client
+  153  apt-get install lightdm
+  230  apt-get install python-pip
+  231  pip install picamera
+  274  apt install imagemagick
+cp photobooth.service /lib/systemd/system/photobooth.service
+  476  cp photobooth.service /lib/systemd/system/
+  477  systemctl daemon-reload
+  478  systemctl enable hello.service
+  479  systemctl enable photobooth.service
+  480  systemctl start photobooth.service 
+pip install --upgrade google-api-python-client
+apt-get install python-imaging

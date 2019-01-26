@@ -1,0 +1,12 @@
+[Unit]
+Description=Photobooth
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/photobooth/photobooth.py
+WorkingDirectory=/home/pi/photobooth
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target
